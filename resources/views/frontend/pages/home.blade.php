@@ -8,12 +8,12 @@
     <rs-module-wrap id="rev_slider_24_1_wrapper" data-alias="home-1" data-source="gallery"
                     style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
         <rs-module id="rev_slider_24_1" data-version="6.5.19">
-            <rs-slides>
+            <rs-slides >
 
                 <rs-slide style="position: absolute;" data-key="rs-84" data-title="Slide"
                           data-thumb="{{asset('frontend/rev/assets/1-51-50x100.jpg')}}" data-anim="ms:600;" data-in="o:0;"
                           data-out="a:false;">
-                    <img src="{{asset('frontend/rev/assets/1-51.jpg')}}" alt="" title="1-51.jpg"
+                    <img src="{{asset('frontend/images/home/image_1.jpeg')}}" alt="" title="1-51.jpg"
                          class="rev-slidebg tp-rs-img" data-no-retina>
                     <!--
                     -->
@@ -73,7 +73,7 @@
 
                 <rs-slide style="position: absolute;" data-key="rs-85" data-title="Slide"
                           data-thumb="{{ asset('frontend/rev/assets/2-51-50x100.jpg')}}" data-in="o:0;" data-out="a:false;">
-                    <img src="{{ asset('frontend/rev/assets/2-51.jpg')}}" alt="" title="2-51.jpg"
+                    <img src="{{asset('frontend/images/home/image_2.jpeg')}}" alt="" title="2-51.jpg"
                          class="rev-slidebg tp-rs-img" data-no-retina>
                     <!--
                     -->
@@ -132,7 +132,7 @@
 
                 <rs-slide style="position: absolute;" data-key="rs-86" data-title="Slide"
                           data-thumb="{{ asset('frontend/rev/assets/3-2-50x100.jpg')}}" data-in="o:0;" data-out="a:false;">
-                    <img src="{{ asset('frontend/rev/assets/3-2.jpg')}}" alt="" title="3-2"
+                    <img src="{{asset('frontend/images/home/image_3.jpg')}}" alt="" title="3-2"
                          class="rev-slidebg tp-rs-img" data-no-retina>
                     <!--
                     -->
@@ -210,7 +210,7 @@
                         <h5 class="pq-info-title">Emergency Cases</h5>
                         <p class="pq-infobox-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form </p>
                         <div class="pq-info-call"> <i class="fas fa-phone-alt"></i>
-                            <h4 class="cpq-call-number">987 654 321</h4> </div>
+                            <h4 class="cpq-call-number">1510</h4> </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-xl-4 pt-md-0 pt-4">
