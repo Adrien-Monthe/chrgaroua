@@ -1,0 +1,137 @@
+@extends('frontend.layouts.app')
+@section('page-title', __('contact.page-title'))
+@section('content')
+
+    <!--=================================
+         Banner start-->
+    <div class="pq-breadcrumb" style="background-image:url('{{ asset("frontend/images/contact/page_banner_2.webp")}}');">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav aria-label="breadcrumb">
+                        <div class="pq-breadcrumb-title">
+                            <h2>@lang('contact.page-title') </h2> </div>
+                        <div class="pq-breadcrumb-container mt-2">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="{{ route('home', app()->getLocale() ) }}"><i class="fas fa-home mr-2"></i>@lang('navbar.nav-home') </a></li>
+                                <li class="breadcrumb-item active">@lang('navbar.nav-contact')</li>
+                            </ol>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-lg-4">
+                    <div class="pq-breadcrumb-img text-right wow fadeInRight"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=================================
+          Banner end-->
+    <!--=================================
+          conatct-us start-->
+    <section class="pq-contact-us">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="pq-contact-box">
+                        <div class="pq-contact-box-icon">
+                            <div class="icon animation-grow"> <i aria-hidden="true" class="ion ion-location"></i> </div>
+                        </div>
+                        <div class="pq-contact-box-info">
+                            <h4 class="pq-contact-box-title">
+                                @lang('contact.our-location')
+                            </h4>
+                            <p class="pq-contact-box-description"> Sanguere, Garoua,<br> Cameroun </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-4">
+                    <div class="pq-contact-box">
+                        <div class="pq-contact-box-icon">
+                            <div class="icon animation-grow"> <i aria-hidden="true" class="ion ion-ios-telephone"></i> </div>
+                        </div>
+                        <div class="pq-contact-box-info">
+                            <h4 class="pq-contact-box-title">
+                                @lang('contact.our-contact')
+                            </h4>
+                            <p class="pq-contact-box-description"> 1510
+                                <br>+ (237) 698-623-055 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-4">
+                    <div class="pq-contact-box">
+                        <div class="pq-contact-box-icon">
+                            <div class="icon animation-grow"> <i aria-hidden="true" class="ion ion-email-unread"></i> </div>
+                        </div>
+                        <div class="pq-contact-box-info">
+                            <h4 class="pq-contact-box-title">
+                                @lang('contact.mail-us')
+                            </h4>
+                            <p class="pq-contact-box-description"> <a href="mailto:contact@chr-garoua.cm" class="" >contact@chr-garoua.cm</a>
+                                <br><a href="mailto:info@chr-garoua.cm" class="" >info@chr-garoua.cm</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=================================
+          contact-us end-->
+    <!--=================================
+          get-in-touch start-->
+    <section class="get-in-touch p-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8  pq-form-box">
+                    <div class="form-container">
+                        <div class="pq-section pq-style-1 text-center p-0"> <span class="pq-section-sub-title">@lang('contact.page-title')</span>
+                            <h5 class="pq-section-title">@lang('contact.get-in-touch')</h5> </div>
+                    </div>
+                    <div class="pq-applyform-whitebg text-start">
+                        <form action="#" class="pq-applyform">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <input type="text" id="first-name" name="your-name" class="name-field" value="" size="40" aria-required="true" aria-invalid="false" placeholder="@lang('contact.enter-name')">
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <input type="email" id="e-mail" name="your-email" class="e-mail-field" value="" size="40" aria-required="true" aria-invalid="false" placeholder="@lang('contact.enter-email')">
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <input type="text" id="phone-number" name="phone-number" class="phone-number-field" value="" size="40" aria-required="true" aria-invalid="false" placeholder="@lang('contact.enter-phone-number')">
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <input type="text" id="subject" name="your-Subject" class="subject-field" size="40" aria-required="true" aria-invalid="false" placeholder="@lang('contact.enter-subject')">
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <textarea name="your-message" id="message" cols="40" rows="10" aria-required="true" aria-invalid="false" placeholder="@lang('contact.enter-message')"></textarea>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <a class="pq-button form-btn">
+                                        <div class="pq-button-block">
+                                            <span class="pq-button-text me-0">@lang('contact.send-message')</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=================================
+          get-in-touch end-->
+    <!--=================================
+          map start-->
+    <div class="map pt-0">
+        <div class="pq-bg-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.5309092846296!2d13.454718814822904!3d9.286136787465239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10fcb5c3d4685705%3A0x28f0c0e5acfc8730!2sHospital%20Center%20Regional%20De%20Garoua!5e0!3m2!1sen!2scm!4v1674082498405!5m2!1sen!2scm" width="100%"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <!--=================================
+          map end-->
+    <!--=================================-->
+
+
+@endsection
