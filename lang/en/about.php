@@ -24,9 +24,9 @@ return [
     'orthopaedics' => 'Orthopaedics',
     'orthopaedics_text' => 'Explore Our Main Services',
     'emergency' => 'Emergency',
-    'emergency_text' => 'Explore Our Main Services',
+    'emergency_text' => 'Our emergency department is open 24/7, and staffed with board-certified emergency medicine physicians and nurses',
     'reanimation' => 'Reanimation',
-    'reanimation_text' => 'Explore Our Main Services',
+    'reanimation_text' => 'We have a wide range of specialized equipment and resources to handle any emergency, from cardiac arrest to severe trauma.',
     'read_more' => 'Read More',
 
 ];

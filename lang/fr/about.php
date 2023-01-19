@@ -23,10 +23,10 @@ return [
     'ophthalmology_text' => 'Explore Our Main Services',
     'orthopaedics' => "Orthopédie",
     'orthopaedics_text' => 'Explore Our Main Services',
-    'emergency' => "Emergency",
-    'emergency_text' => 'Explore Our Main Services',
+    'emergency' => "Urgences",
+    'emergency_text' => "Notre service d'urgence est ouvert 24 heures sur 24, 7 jours sur 7, et est composé de médecins et d'infirmières spécialisés en médecine d'urgence.",
     'reanimation' => "Réanimation",
-    'reanimation_text' => 'Explore Our Main Services',
+    'reanimation_text' => "Nous disposons d'un large éventail d'équipements et de ressources spécialisés pour faire face à toute urgence, de l'arrêt cardiaque au traumatisme grave.",
     'read_more' => 'Plus D\'info',
 
 ];
