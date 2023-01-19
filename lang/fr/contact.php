@@ -4,9 +4,10 @@ return [
 
     'page-title' => 'Contact',
 
-    'our-location' => 'Notre Emplacement',
-    'our-contact' => 'Nos Contacts',
-    'mail-us' => 'Ecrivez Nous',
+    'our-location' => 'Localisation',
+    'our-contact' => 'Téléphone',
+    'mail-us' => 'Courriel',
+    'contact' => 'Ecrivez Nous',
     'get-in-touch' => 'Prenez contact avec nous',
     'enter-name' => 'Entrez Votre Noms',
     'enter-email' => 'Enter Votre Courriel',

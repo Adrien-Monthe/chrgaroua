@@ -85,7 +85,7 @@
             <div class="row">
                 <div class="col-lg-8 col-md-8  pq-form-box">
                     <div class="form-container">
-                        <div class="pq-section pq-style-1 text-center p-0"> <span class="pq-section-sub-title">@lang('contact.page-title')</span>
+                        <div class="pq-section pq-style-1 text-center p-0"> <span class="pq-section-sub-title">@lang('contact.contact')</span>
                             <h5 class="pq-section-title">@lang('contact.get-in-touch')</h5> </div>
                     </div>
                     <div class="pq-applyform-whitebg text-start">
