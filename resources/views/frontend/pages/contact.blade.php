@@ -55,7 +55,7 @@
                                 @lang('contact.our-contact')
                             </h4>
                             <p class="pq-contact-box-description"> 1510
-                                <br>+ (237) 698-623-055 </p>
+                                <br><br> </p>
                         </div>
                     </div>
                 </div>

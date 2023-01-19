@@ -511,214 +511,11 @@
         </div>
     </section>
     <!--Section service End-->
-    <!--Section portfolio start-->
-    <section class="pq-bg-primary pb-lg-0 pq-bg-img-1 ">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="pq-section pq-style-1 text-center"> <span class="pq-section-sub-title">Our Portfolio</span>
-                        <h5 class="pq-section-title pq-text-white">All The Gret Work That We Done</h5> </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 pq-mb-130">
 
-                    <div class="owl-carousel owl-loaded owl-drag" data-dots="true" data-nav="false" data-desk_num="4" data-lap_num="3" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
-                        <div class="item">
-                            <div class="pq-portfoliobox pq-style-1">
-                                <div class="pq-portfolio-img"> <img src="{{ asset('frontend/images/portfolio/slider/1.jpg')}}" class="img-fluid" alt="portfolio-slider">
-                                    <a href="home-visit.html">
-                                        <div class="pq-portfolio-icon"><i class="ion ion-plus-round"></i></div>
-                                    </a>
-                                </div>
-                                <div class="pq-portfolio-info">
-                                    <span><a href="home-visit.html">Clinic</a></span>
-                                    <h5><a href="home-visit.html">Home Visit</a></h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-portfoliobox pq-style-1">
-                                <div class="pq-portfolio-img"> <img src="{{ asset('frontend/images/portfolio/slider/2.jpg')}}" class="img-fluid" alt="portfolio-slider">
-                                    <a href="home-visit.html">
-                                        <div class="pq-portfolio-icon"><i class="ion ion-plus-round"></i></div>
-                                    </a>
-                                </div>
-                                <div class="pq-portfolio-info"> <span>
-                                                                  <a href="home-visit.html">Family</a>                  </span>
-                                    <h5><a href="home-visit.html">Investigations</a></h5> </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-portfoliobox pq-style-1">
-                                <div class="pq-portfolio-img"> <img src="{{ asset('frontend/images/portfolio/slider/3.jpg')}}" class="img-fluid" alt="portfolio-slider">
-                                    <a href="home-visit.html">
-                                        <div class="pq-portfolio-icon"><i class="ion ion-plus-round"></i></div>
-                                    </a>
-                                </div>
-                                <div class="pq-portfolio-info"> <span>
-                                                                     <a href="home-visit.html">Pediatrics</a>                  </span>
-                                    <h5><a href="home-visit.html">Surgical</a></h5> </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-portfoliobox pq-style-1">
-                                <div class="pq-portfolio-img"> <img src="{{ asset('frontend/images/portfolio/slider/4.jpg')}}" class="img-fluid" alt="portfolio-slider">
-                                    <a href="home-visit.html">
-                                        <div class="pq-portfolio-icon"><i class="ion ion-plus-round"></i></div>
-                                    </a>
-                                </div>
-                                <div class="pq-portfolio-info"> <span>
-                                                                        <a href="home-visit.html">Clinic</a>                  </span>
-                                    <h5><a href="home-visit.html">Pediatrics Care</a></h5> </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-portfoliobox pq-style-1">
-                                <div class="pq-portfolio-img"> <img src="{{ asset('frontend/images/portfolio/slider/5.jpg')}}" class="img-fluid" alt="portfolio-slider">
-                                    <a href="home-visit.html">
-                                        <div class="pq-portfolio-icon"><i class="ion ion-plus-round"></i></div>
-                                    </a>
-                                </div>
-                                <div class="pq-portfolio-info"> <span>
-                                                                           <a href="home-visit.html">Clinic</a>                  </span>
-                                    <h5><a href="home-visit.html">Cardiology</a></h5> </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-portfoliobox pq-style-1">
-                                <div class="pq-portfolio-img"> <img src="{{ asset('frontend/images/portfolio/slider/6.jpg')}}" class="img-fluid" alt="portfolio-slider">
-                                    <a href="home-visit.html">
-                                        <div class="pq-portfolio-icon"><i class="ion ion-plus-round"></i></div>
-                                    </a>
-                                </div>
-                                <div class="pq-portfolio-info"> <span>
-                                                                              <a href="home-visit.html">Pediatrics</a>                  </span>
-                                    <h5><a href="home-visit.html">Treatments</a></h5> </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-portfoliobox pq-style-1">
-                                <div class="pq-portfolio-img"> <img src="{{ asset('frontend/images/portfolio/slider/1.jpg')}}" class="img-fluid" alt="portfolio-slider">
-                                    <a href="home-visit.html">
-                                        <div class="pq-portfolio-icon"><i class="ion ion-plus-round"></i></div>
-                                    </a>
-                                </div>
-                                <div class="pq-portfolio-info"> <span>
-                                                                                 <a href="home-visit.html">Family</a>                  </span>
-                                    <h5><a href="home-visit.html">Quality Therapy</a></h5> </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-portfoliobox pq-style-1">
-                                <div class="pq-portfolio-img"> <img src="{{ asset('frontend/images/portfolio/slider/2.jpg')}}" class="img-fluid" alt="portfolio-slider">
-                                    <a href="home-visit.html">
-                                        <div class="pq-portfolio-icon"><i class="ion ion-plus-round"></i></div>
-                                    </a>
-                                </div>
-                                <div class="pq-portfolio-info">
-                                    <span><a href="home-visit.html">Laboratory</a></span>
-                                    <h5><a href="home-visit.html">Orthodontics</a></h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-portfoliobox pq-style-1">
-                                <div class="pq-portfolio-img"> <img src="{{ asset('frontend/images/portfolio/slider/3.jpg')}}" class="img-fluid" alt="portfolio-slider">
-                                    <a href="home-visit.html">
-                                        <div class="pq-portfolio-icon"><i class="ion ion-plus-round"></i></div>
-                                    </a>
-                                </div>
-                                <div class="pq-portfolio-info"> <span>
-                                                                                    <a href="home-visit.html">Clinic</a>                  </span>
-                                    <h5><a href="home-visit.html">Management</a></h5> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!--Section portfolio start-->
+    @include('frontend.layouts.equipments-area')
     <!--Section portfolio End-->
-    <!--Section process-step start-->
-    <section class="process-step pq-bg-img-2 pq-process-pt-130 ">
-        <div class="container  ">
-            <div class="row ">
-                <div class="col-lg-12">
-                    <div class="pq-section pq-style-1 text-center"> <span class="pq-section-sub-title">OUR STEP</span>
-                        <h5 class="pq-section-title">Our Workig Best Process</h5> </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-3 col-md-6">
-                    <div class="pq-process-step pq-process-style-2 ">
-                        <div class="pq-process-media">
-                            <div class="pq-process-img"><img src="{{ asset('frontend/images/process/1.png')}}" class="img-fluid" alt="medicate"> </div>
-                            <div class="pq-process-number"> <span>01</span> </div>
-                        </div>
-                        <div class="pq-process-step-info">
-                            <h5 class="pq-process-title">Emergency Care</h5> <span class="pq-process-sub-title"></span>
-                            <div class="pq-process-description">
-                                <p>There are many variations of passages Lorem Ipsum available</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="pq-process-step pq-process-style-2 ">
-                        <div class="pq-process-media">
-                            <div class="pq-process-img"><img src="{{ asset('frontend/images/process/2.png')}}" class="img-fluid" alt="medicate"> </div>
-                            <div class="pq-process-number"> <span>02</span> </div>
-                        </div>
-                        <div class="pq-process-step-info">
-                            <h5 class="pq-process-title">Emergency Care</h5> <span class="pq-process-sub-title"></span>
-                            <div class="pq-process-description">
-                                <p>There are many variations of passages Lorem Ipsum available</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="pq-process-step pq-process-style-2 ">
-                        <div class="pq-process-media">
-                            <div class="pq-process-img"><img src="{{ asset('frontend/images/process/3.png')}}" class="img-fluid" alt="medicate"> </div>
-                            <div class="pq-process-number"> <span>03</span> </div>
-                        </div>
-                        <div class="pq-process-step-info">
-                            <h5 class="pq-process-title">Emergency Care</h5> <span class="pq-process-sub-title"></span>
-                            <div class="pq-process-description">
-                                <p>There are many variations of passages Lorem Ipsum available</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="pq-process-step pq-process-style-2 ">
-                        <div class="pq-process-media">
-                            <div class="pq-process-img"><img src="{{ asset('frontend/images/process/4.png')}}" class="img-fluid" alt="medicate"> </div>
-                            <div class="pq-process-number"> <span>04</span> </div>
-                        </div>
-                        <div class="pq-process-step-info">
-                            <h5 class="pq-process-title">Emergency Care</h5> <span class="pq-process-sub-title"></span>
-                            <div class="pq-process-description">
-                                <p>There are many variations of passages Lorem Ipsum available</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center mt-4">
-                    <a class="pq-button pq-button-flat" href="make-appoinment.html">
-                        <div class="pq-button-block"> <span class="pq-button-text">Get Appointment</span> <i class="ion ion-plus-round"></i> </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Section process-step End-->
+
     <!--Section team start-->
     <section class="team pq-bg-grey pq-team-pb">
         <div class="container">
@@ -731,7 +528,7 @@
                     <div class="owl-carousel owl-theme " data-dots="true" data-nav="false" data-desk_num="3" data-lap_num="3" data-tab_num="2" data-mob_num="2" data-mob_sm="1" data-autoplay="false" data-loop="false" data-margin="30">
                         <div class="item">
                             <div class="pq-team-box pq-style-1">
-                                <div class="pq-team-img"> <img src="images/team/1.jpg" class="img-fluid" alt="team-image">
+                                <div class="pq-team-img"> <img src="{{ asset('frontend/images/team/1.jpg')}}" class="img-fluid" alt="team-image">
                                     <div class="pq-team-social">
                                         <ul>
                                             <li>
@@ -755,7 +552,7 @@
                         </div>
                         <div class="item">
                             <div class="pq-team-box pq-style-1">
-                                <div class="pq-team-img"> <img src="images/team/2.jpg" class="img-fluid" alt="team-image">
+                                <div class="pq-team-img"> <img src="{{ asset('frontend/images/team/2.jpg')}}" class="img-fluid" alt="team-image">
                                     <div class="pq-team-social">
                                         <ul>
                                             <li>
@@ -779,7 +576,7 @@
                         </div>
                         <div class="item">
                             <div class="pq-team-box pq-style-1">
-                                <div class="pq-team-img"> <img src="images/team/3.jpg" class="img-fluid" alt="team-image">
+                                <div class="pq-team-img"> <img src="{{ asset('frontend/images/team/3.jpg')}}" class="img-fluid" alt="team-image">
                                     <div class="pq-team-social">
                                         <ul>
                                             <li>
@@ -803,7 +600,7 @@
                         </div>
                         <div class="item">
                             <div class="pq-team-box pq-style-1">
-                                <div class="pq-team-img"> <img src="images/team/4.jpg" class="img-fluid" alt="team-image">
+                                <div class="pq-team-img"> <img src="{{ asset('frontend/images/team/4.jpg')}}" class="img-fluid" alt="team-image">
                                     <div class="pq-team-social">
                                         <ul>
                                             <li>
@@ -827,7 +624,7 @@
                         </div>
                         <div class="item">
                             <div class="pq-team-box pq-style-1">
-                                <div class="pq-team-img"> <img src="images/team/5.jpg" class="ig-fluid" alt="team-image">
+                                <div class="pq-team-img"> <img src="{{ asset('frontend/images/team/5.jpg')}}" class="ig-fluid" alt="team-image">
                                     <div class="pq-team-social">
                                         <ul>
                                             <li>
@@ -859,7 +656,7 @@
     <section class="pq-form">
         <div class="container">
             <div class="row align-items-center pq-bg-primary pq-reveser flex-md-column-reverse flex-lg-row">
-                <div class="col-lg-4 text-center"> <img src="images/2.png" class="img-fluid pq-form-img-overflow" alt="..."> </div>
+                <div class="col-lg-4 text-center"> <img src="{{ asset('frontend/images/2.png')}}" class="img-fluid pq-form-img-overflow" alt="..."> </div>
                 <div class="col-lg-8 mt-5 mt-lg-0 pq-form-pad pq-blue-section-side-right">
                     <div class="pq-section pq-style-1 text-left"> <span class="pq-section-sub-title">Appointment</span>
                         <h5 class="pq-section-title pq-text-white">Apply for free treatments</h5>
@@ -894,65 +691,8 @@
 
     <!--Section form End-->
     <!--Section testimonial Start-->
-    <section class="testimonial pg-border-bottom pq-testimonial-pt">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="pq-section pq-style-1 text-center"> <span class="pq-section-sub-title">Our Clients</span>
-                        <h5 class="pq-section-title">Our Client Happy Say About Us</h5> </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="owl-carousel owl-theme" data-dots="true" data-nav="false" data-desk_num="2" data-lap_num="2" data-tab_num="1" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
-                        <div class="item">
-                            <div class="pq-testimonial-box pq-style-1">
-                                <div class="pq-testimonial-info">
-                                    <div class="pq-testimonial-content">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don’t look even believable. There are many variations of passages.</p>
-                                    </div>
-                                </div>
-                                <div class="pq-testimonial-media">
-                                    <div class="pq-testimonial-img"> <img src="images/testimonial/1.png" class="img-fluid" alt="testimonial-image"> </div>
-                                    <div class="pq-testimonial-meta">
-                                        <h5>Dr. john Martin</h5> <span>Cancer Research </span> </div>
-                                    <div class="pq-testimonial-icon"> <i class="fas fa-quote-right"></i> </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-testimonial-box pq-style-1">
-                                <div class="pq-testimonial-info">
-                                    <div class="pq-testimonial-content">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don’t look even believable. There are many variations of passages.</p>
-                                    </div>
-                                </div>
-                                <div class="pq-testimonial-media">
-                                    <div class="pq-testimonial-img"> <img src="images/testimonial/2.png" class="img-fluid" alt="testimonial-image"> </div>
-                                    <div class="pq-testimonial-meta">
-                                        <h5>Dr. john Martin</h5> <span>Cancer Research </span> </div>
-                                    <div class="pq-testimonial-icon"> <i class="fas fa-quote-right"></i> </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-testimonial-box pq-style-1">
-                                <div class="pq-testimonial-info">
-                                    <div class="pq-testimonial-content">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don’t look even believable. There are many variations of passages.</p>
-                                    </div>
-                                </div>
-                                <div class="pq-testimonial-media">
-                                    <div class="pq-testimonial-img"> <img src="images/testimonial/3.png" class="img-fluid" alt="testimonial-image"> </div>
-                                    <div class="pq-testimonial-meta">
-                                        <h5>Dr. john Martin</h5> <span>Cancer Research </span> </div>
-                                    <div class="pq-testimonial-icon"> <i class="fas fa-quote-right"></i> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+    @include('frontend.layouts.home-testimonials-area')
     <!--Section testimonial End-->
     <!--Section client Start-->
     <div class="pq-client">
@@ -962,37 +702,37 @@
                     <div class="owl-carousel owl-theme" data-dots="false" data-nav="false" data-desk_num="5" data-lap_num="3" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
                         <div class="item">
                             <div class="pq-clientbox pq-style-1">
-                                <a href="#"> <img src="images/client/1.png" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="images/client/1.png" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
+                                <a href="#"> <img src="{{ asset('frontend/images/client/1.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/client/1.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pq-clientbox pq-style-1">
-                                <a href="#"> <img src="images/client/2.png" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="images/client/2.png" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
+                                <a href="#"> <img src="{{ asset('frontend/images/client/2.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/client/2.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pq-clientbox pq-style-1">
-                                <a href="#"> <img src="images/client/3.png" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="images/client/3.png" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
+                                <a href="#"> <img src="{{ asset('frontend/images/client/3.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/client/3.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pq-clientbox pq-style-1">
-                                <a href="#"> <img src="images/client/4.png" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="images/client/4.png" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
+                                <a href="#"> <img src="{{ asset('frontend/images/client/4.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/client/4.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pq-clientbox pq-style-1">
-                                <a href="#"> <img src="images/client/5.png" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="images/client/5.png" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
+                                <a href="#"> <img src="{{ asset('frontend/images/client/5.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/client/5.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pq-clientbox pq-style-1">
-                                <a href="#"> <img src="images/client/1.png" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="images/client/1.png" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
+                                <a href="#"> <img src="{{ asset('frontend/images/client/1.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/client/1.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pq-clientbox pq-style-1">
-                                <a href="#"> <img src="images/client/2.png" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="images/client/2.png" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
+                                <a href="#"> <img src="{{ asset('frontend/images/client/2.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/client/2.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
                             </div>
                         </div>
                     </div>
@@ -1002,245 +742,6 @@
     </div>
     <!--Section client End-->
     <!--Section blog Start-->
-    <section class="pq-blog pq-bg-grey pq-pb-210">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="pq-section pq-style-1 text-center"> <span class="pq-section-sub-title">our blog</span>
-                        <h5 class="pq-section-title">See Our Latest Blog</h5>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="owl-carousel owl-theme" data-dots="false" data-nav="false" data-desk_num="3" data-lap_num="2" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
-                        <div class="item">
-                            <div class="pq-blog-post pq-style-1">
-                                <div class="pq-post-media"> <img src="images/blog/1.jpg" class="img-fluid" alt="images">
-                                    <div class="pq-post-date">
-                                        <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-comment"> <a href="get-the-exercise-limited-mobility.html"><i class="fa fa-comments"></i>
-                                                    0 Comments</a> </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="get-the-exercise-limited-mobility.html">Get the Exercise Limited Mobility</a></h5>
-                                    <div class="pq-blog-info">
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                    </div>
-                                    <a href="get-the-exercise-limited-mobility.html" class="pq-button pq-button-link">
-                                        <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post pq-style-1">
-                                <div class="pq-post-media"> <img src="images/blog/2.jpg" class="img-fluid" alt="images">
-                                    <div class="pq-post-date">
-                                        <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-comment"> <a href="get-the-exercise-limited-mobility.html"><i class="fa fa-comments"></i>
-                                                    0 Comments</a> </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="get-the-exercise-limited-mobility.html">Transfusion strategy and heart surgery</a></h5>
-                                    <div class="pq-blog-info">
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                    </div>
-                                    <a href="get-the-exercise-limited-mobility.html" class="pq-button pq-button-link">
-                                        <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post pq-style-1">
-                                <div class="pq-post-media"> <img src="images/blog/3.jpg" class="img-fluid" alt="images">
-                                    <div class="pq-post-date">
-                                        <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-comment"> <a href="get-the-exercise-limited-mobility.html"><i class="fa fa-comments"></i>
-                                                    0 Comments</a> </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="get-the-exercise-limited-mobility.html">Latest Equipment for the Heart Treatment</a></h5>
-                                    <div class="pq-blog-info">
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                    </div>
-                                    <a href="get-the-exercise-limited-mobility.html" class="pq-button pq-button-link">
-                                        <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post pq-style-1">
-                                <div class="pq-post-media"> <img src="images/blog/4.jpg" class="img-fluid" alt="images">
-                                    <div class="pq-post-date">
-                                        <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-comment"> <a href="get-the-exercise-limited-mobility.html"><i class="fa fa-comments"></i>
-                                                    0 Comments</a> </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="get-the-exercise-limited-mobility.html">What is Future of Blood Pressure Monitoring?</a></h5>
-                                    <div class="pq-blog-info">
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                    </div>
-                                    <a href="get-the-exercise-limited-mobility.html" class="pq-button pq-button-link">
-                                        <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post pq-style-1">
-                                <div class="pq-post-media"> <img src="images/blog/5.jpg" class="img-fluid" alt="images">
-                                    <div class="pq-post-date">
-                                        <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-comment"> <a href="get-the-exercise-limited-mobility.html"><i class="fa fa-comments"></i>
-                                                    0 Comments</a> </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="get-the-exercise-limited-mobility.html">Goals Setting the people Heart is Healthy</a></h5>
-                                    <div class="pq-blog-info">
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                    </div>
-                                    <a href="get-the-exercise-limited-mobility.html" class="pq-button pq-button-link">
-                                        <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post pq-style-1">
-                                <div class="pq-post-media"> <img src="images/blog/6.jpg" class="img-fluid" alt="images">
-                                    <div class="pq-post-date">
-                                        <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-comment"> <a href="get-the-exercise-limited-mobility.html"><i class="fa fa-comments"></i>
-                                                    0 Comments</a> </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="get-the-exercise-limited-mobility.html">For Examination of kids get Special offers</a></h5>
-                                    <div class="pq-blog-info">
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                    </div>
-                                    <a href="get-the-exercise-limited-mobility.html" class="pq-button pq-button-link">
-                                        <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post pq-style-1">
-                                <div class="pq-post-media"> <img src="images/blog/7.jpg" class="img-fluid" alt="images">
-                                    <div class="pq-post-date">
-                                        <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-comment"> <a href="get-the-exercise-limited-mobility.html"><i class="fa fa-comments"></i>
-                                                    0 Comments</a> </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="get-the-exercise-limited-mobility.html">Heart Failure Treatment: High Blood Pressure</a></h5>
-                                    <div class="pq-blog-info">
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                    </div>
-                                    <a href="get-the-exercise-limited-mobility.html" class="pq-button pq-button-link">
-                                        <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post pq-style-1">
-                                <div class="pq-post-media"> <img src="images/blog/8.jpg" class="img-fluid" alt="images">
-                                    <div class="pq-post-date">
-                                        <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-comment"> <a href="get-the-exercise-limited-mobility.html"><i class="fa fa-comments"></i>
-                                                    0 Comments</a> </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="get-the-exercise-limited-mobility.html">Hard content we decide ourselves a intently</a></h5>
-                                    <div class="pq-blog-info">
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                    </div>
-                                    <a href="get-the-exercise-limited-mobility.html" class="pq-button pq-button-link">
-                                        <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post pq-style-1">
-                                <div class="pq-post-media"> <img src="images/blog/9.jpg" class="img-fluid" alt="images">
-                                    <div class="pq-post-date">
-                                        <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-comment"> <a href="get-the-exercise-limited-mobility.html"><i class="fa fa-comments"></i>
-                                                    0 Comments</a> </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="get-the-exercise-limited-mobility.html">Is Running Really Good for the Heart?</a></h5>
-                                    <div class="pq-blog-info">
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                    </div>
-                                    <a href="get-the-exercise-limited-mobility.html" class="pq-button pq-button-link">
-                                        <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('frontend.layouts.blog.blog-area')
     <!--Section blog End-->
 @endsection

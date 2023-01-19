@@ -108,7 +108,7 @@
         <div class="pq-copyright-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center "> <span class="pq-copyright"> Copyright 2022 medicate All Rights Reserved</span> </div>
+                    <div class="col-md-12 text-center "> <span class="pq-copyright"> @lang('footer.copyright')</span> </div>
                 </div>
             </div>
         </div>
