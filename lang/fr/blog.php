@@ -17,5 +17,6 @@ return [
     'pediatry' => 'Pediatrie',
     'gynecology' => 'Gynecologie',
     'tag' => 'Étiquette',
+    'read-more' => "Plus D'info",
 
 ];

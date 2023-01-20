@@ -56,7 +56,7 @@
                                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
                                         </div>
                                         <div class="pq-button-block">
-                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">Read More</span> <i class="fas fa-plus"></i> </a>
+                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">@lang('blog.read-more')</span> <i class="fas fa-plus"></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -85,7 +85,7 @@
                                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
                                         </div>
                                         <div class="pq-button-block">
-                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">Read More</span> <i class="fas fa-plus"></i> </a>
+                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">@lang('blog.read-more')</span> <i class="fas fa-plus"></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -115,7 +115,7 @@
                                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
                                         </div>
                                         <div class="pq-button-block">
-                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">Read More</span> <i class="fas fa-plus"></i> </a>
+                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">@lang('blog.read-more')</span> <i class="fas fa-plus"></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -145,7 +145,7 @@
                                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
                                         </div>
                                         <div class="pq-button-block">
-                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">Read More</span> <i class="fas fa-plus"></i> </a>
+                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">@lang('blog.read-more')</span> <i class="fas fa-plus"></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -176,7 +176,7 @@
                                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
                                         </div>
                                         <div class="pq-button-block">
-                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">Read More</span> <i class="fas fa-plus"></i> </a>
+                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">@lang('blog.read-more')</span> <i class="fas fa-plus"></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -206,7 +206,7 @@
                                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
                                         </div>
                                         <div class="pq-button-block">
-                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">Read More</span> <i class="fas fa-plus"></i> </a>
+                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">@lang('blog.read-more')</span> <i class="fas fa-plus"></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -236,7 +236,7 @@
                                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
                                         </div>
                                         <div class="pq-button-block">
-                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">Read More</span> <i class="fas fa-plus"></i> </a>
+                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">@lang('blog.read-more')</span> <i class="fas fa-plus"></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -265,7 +265,7 @@
                                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
                                         </div>
                                         <div class="pq-button-block">
-                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">Read More</span> <i class="fas fa-plus"></i> </a>
+                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">@lang('blog.read-more')</span> <i class="fas fa-plus"></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -295,7 +295,7 @@
                                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
                                         </div>
                                         <div class="pq-button-block">
-                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">Read More</span> <i class="fas fa-plus"></i> </a>
+                                            <a href="#" class="pq-button pq-button-flat"> <span class="text">@lang('blog.read-more')</span> <i class="fas fa-plus"></i> </a>
                                         </div>
                                     </div>
                                 </div>

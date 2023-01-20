@@ -15,6 +15,7 @@ return [
     'oto-rhino-laryngology' => 'Oto-rhino-laryngology',
     'pediatry' => 'Pediatry',
     'gynecology' => 'Gynecology',
+    'read-more' => "Read More",
 
     'tag' => 'Tag',
 
