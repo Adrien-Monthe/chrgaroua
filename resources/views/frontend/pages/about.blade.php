@@ -208,7 +208,7 @@
           counter end-->
     <!--=================================
           our-client start-->
-    @include('frontend.layouts.testimonials-area')
+{{--    @include('frontend.layouts.testimonials-area')--}}
     <!--=================================
           our-client end-->
 
