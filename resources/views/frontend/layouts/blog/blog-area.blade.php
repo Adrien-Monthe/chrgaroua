@@ -9,9 +9,10 @@
             </div>
             <div class="col-lg-12">
                 <div class="owl-carousel owl-theme" data-dots="false" data-nav="false" data-desk_num="3" data-lap_num="3" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
+
                     <div class="item">
                         <div class="pq-blog-post pq-style-1 pq-bg-grey">
-                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/1.jpg')}}" class="img-fluid" alt="images">
+                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/10.jpg')}}" class="img-fluid" alt="images">
                                 <div class="pq-post-date">
                                     <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
                                 </div>
@@ -34,9 +35,10 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="item">
                         <div class="pq-blog-post pq-style-1 pq-bg-grey">
-                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/2.jpg')}}" class="img-fluid" alt="images">
+                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/11.jpg')}}" class="img-fluid" alt="images">
                                 <div class="pq-post-date">
                                     <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
                                 </div>
@@ -59,9 +61,10 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="item">
                         <div class="pq-blog-post pq-style-1 pq-bg-grey">
-                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/3.jpg')}}" class="img-fluid" alt="images">
+                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/12.jpg')}}" class="img-fluid" alt="images">
                                 <div class="pq-post-date">
                                     <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
                                 </div>
@@ -84,9 +87,10 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="item">
                         <div class="pq-blog-post pq-style-1 pq-bg-grey">
-                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/4.jpg')}}" class="img-fluid" alt="images">
+                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/14.jpg')}}" class="img-fluid" alt="images">
                                 <div class="pq-post-date">
                                     <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
                                 </div>
@@ -109,9 +113,10 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="item">
                         <div class="pq-blog-post pq-style-1 pq-bg-grey">
-                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/5.jpg')}}" class="img-fluid" alt="images">
+                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/15.jpg')}}" class="img-fluid" alt="images">
                                 <div class="pq-post-date">
                                     <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
                                 </div>
@@ -134,9 +139,10 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="item">
                         <div class="pq-blog-post pq-style-1 pq-bg-grey">
-                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/6.jpg')}}" class="img-fluid" alt="images">
+                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/16.jpg')}}" class="img-fluid" alt="images">
                                 <div class="pq-post-date">
                                     <a href="#"> <span>December 5, 2021</span></a>
                                 </div>
@@ -159,9 +165,10 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="item">
                         <div class="pq-blog-post pq-style-1 pq-bg-grey">
-                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/7.jpg')}}" class="img-fluid" alt="images">
+                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/17.jpg')}}" class="img-fluid" alt="images">
                                 <div class="pq-post-date">
                                     <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
                                 </div>
@@ -184,9 +191,10 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="item">
                         <div class="pq-blog-post pq-style-1 pq-bg-grey">
-                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/8.jpg')}}" class="img-fluid" alt="images">
+                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/18.jpg')}}" class="img-fluid" alt="images">
                                 <div class="pq-post-date">
                                     <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
                                 </div>
@@ -209,9 +217,10 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="item">
                         <div class="pq-blog-post pq-style-1 pq-bg-grey">
-                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/9.jpg')}}" class="img-fluid" alt="images">
+                            <div class="pq-post-media"> <img src="{{ asset('frontend/images/blog/19.jpg')}}" class="img-fluid" alt="images">
                                 <div class="pq-post-date">
                                     <a href="get-the-exercise-limited-mobility.html"> <span>December 5, 2021</span></a>
                                 </div>
