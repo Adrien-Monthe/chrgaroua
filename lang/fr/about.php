@@ -16,7 +16,7 @@ return [
 
     'our-services' => 'NOS SERVICES',
 
-    'our-main-services' => 'Découvrez nos principaux services',
+    'our-main-services' => 'Découvrez nos services',
     'cardiology' => 'Cardiologie',
     'cardiology_text' => 'Notre équipe de cardiologues hautement qualifiés et expérimentés est spécialisée dans le diagnostic et le traitement des maladies cardiaques et vasculaires',
     'neurology' => 'Neurologie',
