@@ -2,7 +2,7 @@
 
 return [
 
-    'our-blog' => "Our Clients",
-    'our-blog-text' => "Consultez nos articles récents",
+    'our-blog' => "Journal",
+    'our-blog-text' => "Notre Actualité",
 
 ];
