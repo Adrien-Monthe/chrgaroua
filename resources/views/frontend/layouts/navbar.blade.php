@@ -19,9 +19,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="menu-item {{Route::currentRouteName() === 'services' ? 'current-menu-item' : ''}}">
-                    <a href="{{ route('services', app()->getLocale() ) }}">@lang('navbar.nav-services')</a>
-                </li>
+
                 <li class="menu-item {{Route::currentRouteName() === 'blog' ? 'current-menu-item' : ''}}">
                     <a href="{{ route('blog', app()->getLocale() ) }}">@lang('navbar.nav-blog')</a>
                 </li>

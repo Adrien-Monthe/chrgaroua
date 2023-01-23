@@ -3,96 +3,39 @@
 @section('service-content')
 
     <div class="pq-menu-content">
-        <div class="pq-rhs-img text-center"> <img src="images/service-single.jpg" alt="" class="rounded img-fluid"> </div>
+        <div class="pq-rhs-img text-center"> <img src="/frontend/images/service-single.jpg" alt="" class="rounded img-fluid"> </div>
         <div class="pq-section-title-box pq-section-title-style-2 pt-4">
-            <h4 class="pq-section-title">Professional Medical Service Of Angioplasty</h4>
+            <h4 class="pq-section-title">Un pole D'excellence Gynéco Obstetrique</h4>
+            <br>
             <div class="pq-section-description">
-                <p>Medicate is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since </p>
+                <p> <strong>Dans le domaine gynéco obstétrique, le CHR de Garoua </strong> est doté d'un plateau technique de plus haut niveau de référence de la région avec des capacités permettant d'atteindre un minimum de 3500 naissances annuelles. C'est le grand pavillon réservé à la prise en charge de la mère et de l'enfant. Il est composé des services de gynécologie-obstétrique, de néonatalogie et de pédiatrie. </p>
+                <p> <strong>Le service de néonatalogie</strong><br>
+                    Le service est spécialisé dans la prise en charge des nouveaux nés, nécessitant des soins intensifs et une surveillance étroite. Il accueille les enfants nés prématurés, les bébés trop petits et les enfants à terme, mais malade à la naissance ou dans les jours qui suivent. La durée de la prise en charge est fonction du poids et de l'evolu-tion de l'état de santé de l'enfant. Le service de néonatalogie dispose pour son fonctionnement optimal et maximal de : </p>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6">
                 <ul class="pq-portfolio-list-check">
-                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>Aliquam tincidunt nisi vitae nulla molestie</span></li>
-                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>Praesent convallis odio elementum tortor.</span></li>
-                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>Nunc molestie ex at nisi vehicula pellentesque.</span></li>
-                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>Cras id purus faucibus, euismod metus.</span></li>
-                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>Aenean et libero tincidunt, auctor urna.</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>15 couveuses, dont une de transfert.</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>04 photothérapies mobiles</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>08 tables radiantes pour la réanimation du nouveau-né.</span></li>
+
                 </ul>
             </div>
             <div class="col-lg-6 p-lg-0">
                 <ul class="pq-portfolio-list-check">
-                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>There are many variations of passages of Lorem</span></li>
-                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>Ipsum available, but the majority have suffered.</span></li>
-                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>Alteration in some form, by injected humour.</span></li>
-                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>Randomised words which don't look.</span></li>
-                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>Slightly believable. If you are going..</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>Respirateurs pédiatriques</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>Un chariot d'urgence</span></li>
                 </ul>
             </div>
-            <div class="row">
-                <div class="pq-section-title-box pq-section-title-style-2 pt-2">
-                    <h4 class="pq-section-title">Advantage Dental Care</h4>
-                    <div class="pq-section-description"> Medicate is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since </div>
-                </div>
+            <div class="pq-section-description">
+                <p> <strong>Le service pédiatrique</strong><br>
+
+                    Etroitement lié à la néonatalogie, le service pédiatrique, comme partout ailleurs est consacré au suivi global de l'enfant de sa naissance jusqu'à l'adolescence. Le service pédiatrique dispose de 02 salles de consultation et de 20 lits d'hospitalisation répartis dans 08 salles. Chaque lit est doté d'un système d'appel malade permettant à ce dernier de joindre en cas d'urgence, le personnel médical lorsqu'il a besoin d'as-sistance.
             </div>
-            <div class="row mt-4">
-                <div class="col-lg-6 col-md-12"> <img src="images/services/1.jpg" alt=""> </div>
-                <div class="col-lg-6 col-md-12 mt-lg-0 mt-4"> <img src="images/services/2.jpg" class="img-fluid" alt=""> </div>
-            </div>
-            <div class="row">
-                <div class="pq-section-title-box pq-section-title-style-2 pt-4">
-                    <h4 class="pq-section-title">Health Tips & Info</h4>
-                    <div class="pq-section-description">
-                        <p>Medicate is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                    </div>
-                </div>
-                <div class="pq-accordion-block ">
-                    <div class="pq-accordion-box  1">
-                        <div class="pq-ad-title">
-                            <h6 class="ad-title-text">
-                                Where can I go to provide a sample for testing?
-                                <i aria-hidden="true" class="ion ion-ios-arrow-down active"></i><i
-                                    aria-hidden="true" class="ion ion-ios-arrow-up inactive"></i>
-                            </h6> </div>
-                        <div class="pq-accordion-details" style="display: none;">
-                            <p class="pq-detail-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>
-                        </div>
-                    </div>
-                    <div class="pq-accordion-box   2">
-                        <div class="pq-ad-title">
-                            <h6 class="ad-title-text">
-                                What happens to my sample once I have provided it?
-                                <i aria-hidden="true" class="ion ion-ios-arrow-down active"></i><i
-                                    aria-hidden="true" class="ion ion-ios-arrow-up inactive"></i>
-                            </h6> </div>
-                        <div class="pq-accordion-details" style="display: none;">
-                            <p class="pq-detail-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>
-                        </div>
-                    </div>
-                    <div class="pq-accordion-box   3 ">
-                        <div class="pq-ad-title">
-                            <h6 class="ad-title-text">
-                                What will laboratory testing cost me?
-                                <i aria-hidden="true" class="ion ion-ios-arrow-down active"></i><i
-                                    aria-hidden="true" class="ion ion-ios-arrow-up inactive"></i>
-                            </h6> </div>
-                        <div class="pq-accordion-details" style="display: block;">
-                            <p class="pq-detail-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>
-                        </div>
-                    </div>
-                    <div class="pq-accordion-box   4 ">
-                        <div class="pq-ad-title">
-                            <h6 class="ad-title-text">
-                                Using Innovative Technology
-                                <i aria-hidden="true" class="ion ion-ios-arrow-down active"></i><i
-                                    aria-hidden="true" class="ion ion-ios-arrow-up inactive"></i>
-                            </h6> </div>
-                        <div class="pq-accordion-details" style="display: block;">
-                            <p class="pq-detail-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+
+
         </div>
     </div>
 

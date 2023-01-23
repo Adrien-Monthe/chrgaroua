@@ -9,11 +9,11 @@
                 <div class="col-lg-12">
                     <nav aria-label="breadcrumb">
                         <div class="pq-breadcrumb-title">
-                            <h2>Angioplasty services</h2> </div>
+                            <h2>@yield('page-title')</h2> </div>
                         <div class="pq-breadcrumb-container mt-2">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home mr-2"></i>Home</a></li>
-                                <li class="breadcrumb-item active">Angioplasty Services</li>
+                                <li class="breadcrumb-item"><a href="{{ route('home', app()->getLocale() ) }}"><i class="fas fa-home mr-2"></i>@lang('navbar.nav-home')</a></li>
+                                <li class="breadcrumb-item active">@yield('page-title')</li>
                             </ol>
                         </div>
                     </nav>
