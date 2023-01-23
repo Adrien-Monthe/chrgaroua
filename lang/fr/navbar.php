@@ -10,5 +10,7 @@ return [
     'nav-appointment' => 'Rendez-vous',
     'nav-gynecology' => 'Gynecologie',
     'nav-digital-imaging' => "L'imagerie Médicale",
+    'nav-centralised-monitoring' => "Monitoring Centralisé",
+    'nav-reanimation' => "Réanimation",
 
 ];

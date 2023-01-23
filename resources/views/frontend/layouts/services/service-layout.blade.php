@@ -38,6 +38,8 @@
                                 <ul id="menu-service-menu" class="menu">
                                     <li class="{{Route::currentRouteName() === 'service_gynecology' ? 'current-menu-item' : ''}}"><a href="{{ route('service_gynecology', app()->getLocale() ) }}" aria-current="{{Route::currentRouteName() === 'service_gynecology' ? 'page' : ''}}" >@lang('navbar.nav-gynecology') </a> </li>
                                     <li class="{{Route::currentRouteName() === 'service_imaging' ? 'current-menu-item' : ''}}"><a href="{{ route('service_imaging', app()->getLocale() ) }}" aria-current="{{Route::currentRouteName() === 'service_imaging' ? 'page' : ''}}" >@lang('navbar.nav-digital-imaging') </a> </li>
+                                    <li class="{{Route::currentRouteName() === 'service_centralised_monitoring' ? 'current-menu-item' : ''}}"><a href="{{ route('service_centralised_monitoring', app()->getLocale() ) }}" aria-current="{{Route::currentRouteName() === 'service_centralised_monitoring' ? 'page' : ''}}" >@lang('navbar.nav-centralised-monitoring') </a> </li>
+                                    <li class="{{Route::currentRouteName() === 'service_reanimation' ? 'current-menu-item' : ''}}"><a href="{{ route('service_reanimation', app()->getLocale() ) }}" aria-current="{{Route::currentRouteName() === 'service_reanimation' ? 'page' : ''}}" >@lang('navbar.nav-reanimation') </a> </li>
 
                                 </ul>
                             </div>

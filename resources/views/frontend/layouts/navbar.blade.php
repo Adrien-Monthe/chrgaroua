@@ -19,6 +19,10 @@
                         </li>
                         <li class="menu-item "> <a href="{{ route('service_gynecology', app()->getLocale() ) }}">@lang('navbar.nav-digital-imaging')</a>
                         </li>
+                        <li class="menu-item "> <a href="{{ route('service_centralised_monitoring', app()->getLocale() ) }}">@lang('navbar.nav-centralised-monitoring')</a>
+                        </li>
+                        <li class="menu-item "> <a href="{{ route('service_reanimation', app()->getLocale() ) }}">@lang('navbar.nav-reanimation')</a>
+                        </li>
                     </ul>
                 </li>
 

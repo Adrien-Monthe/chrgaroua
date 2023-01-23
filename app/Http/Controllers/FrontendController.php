@@ -44,6 +44,17 @@ class FrontendController extends Controller
         return view('frontend.pages.services.imaging-service');
     }
 
+
+    public function service_centralised_monitoring()
+    {
+        return view('frontend.pages.services.centralised-monitoring-service');
+    }
+
+    public function service_reanimation()
+    {
+        return view('frontend.pages.services.centralised-monitoring-service');
+    }
+
     public function blog()
     {
         return view('frontend.pages.blog.blog-articles');
