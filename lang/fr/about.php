@@ -4,7 +4,7 @@ return [
 
     'page-title' => 'A Propos',
     'chrg_text' => 'Centre hospitalier regional de Garoua',
-    'welcome_to_chrg' => "Bienvenue dans l'un des plus grands hôpitaux du Nord. ",
+    'welcome_to_chrg' => "Bienvenue dans l'un des plus grands hôpitaux du Nord Cameroun. ",
     'welcome_to_chrg_text' => "L'Hôpital Régional de Garoua est une valeur ajoutée substantielle de l'offre sanitaire de ces dernières années dans la région du Nord. ",
     'patient-centered-care' => 'Soins centrés sur le patient',
     'evidence-based-practice' => 'Pratique fondée sur les preuves',

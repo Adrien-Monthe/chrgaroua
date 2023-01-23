@@ -34,7 +34,7 @@
                 <div class="col-xl-6 pe-xl-5"> <img src="{{ asset('frontend/images/about/page_banner_2.jpg')}}" class="img-fluid wow fadeInLeft" alt="home"> </div>
                 <div class="col-xl-6 px-xl-4 mt-4 mt-xl-0">
                    <div class="pq-section pq-style-1 text-left"> {{--<span class="pq-section-sub-title">@lang('about.chrg_text')</span>--}}
-                        <h5 class="pq-section-title">@lang('about.welcome_to_chrg')  </h5>
+                        <h5 style="text-transform: none;" class="pq-section-title">@lang('about.welcome_to_chrg')  </h5>
                         <p class="pq-section-description">@lang('about.welcome_to_chrg_text') </p>
                     </div>
                     <div class="row mt-3">
