@@ -5,39 +5,40 @@
     <div class="pq-menu-content">
         <div class="pq-rhs-img text-center"> <img src="/frontend/images/blog/19.jpg" alt="" class="rounded img-fluid"> </div>
         <div class="pq-section-title-box pq-section-title-style-2 pt-4">
-            <h4 class="pq-section-title">Un pole D'excellence Gynéco Obstetrique</h4>
+            <h4 class="pq-section-title">L'Imagerie Médicale</h4>
             <br>
             <div class="pq-section-description">
-                <p> <strong>Dans le domaine gynéco obstétrique, le CHR de Garoua </strong> est doté d'un plateau technique de plus haut niveau de référence de la région avec des capacités permettant d'atteindre un minimum de 3500 naissances annuelles. C'est le grand pavillon réservé à la prise en charge de la mère et de l'enfant. Il est composé des services de gynécologie-obstétrique, de néonatalogie et de pédiatrie. </p>
-                <p> <strong>Le service de néonatalogie</strong><br>
-                    Le service est spécialisé dans la prise en charge des nouveaux nés, nécessitant des soins intensifs et une surveillance étroite. Il accueille les enfants nés prématurés, les bébés trop petits et les enfants à terme, mais malade à la naissance ou dans les jours qui suivent. La durée de la prise en charge est fonction du poids et de l'evolu-tion de l'état de santé de l'enfant. Le service de néonatalogie dispose pour son fonctionnement optimal et maximal de : </p>
+                <p> Ce pavillon comprend plusieurs pôles d'activités dont une IRM (imagerie par résonnance magnétique).
+                    Le service d'imagerie est ouvert aux patients externes et aux patients hospitalisés.
+                    Il est composé de plusieurs pôles d'activité (radiologie, échographie, mammographie, scanner et IRM). Tous les types d'examen sont réalisables au sein du service aussi bien en urgence que programmés.
+                    Ici les équipements sont à la pointe de la technologie. </p>
+
+
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
+                <p><strong>Sur le plan structurel, le pavillon d'imagerie dispose de :</strong></p>
                 <ul class="pq-portfolio-list-check">
-                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>15 couveuses, dont une de transfert.</span></li>
-                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>04 photothérapies mobiles</span></li>
-                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>08 tables radiantes pour la réanimation du nouveau-né.</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>02 salles d'attente dont 01 à l'accueil du service et l'autre à l'intérieur en cas de survenance de complication chez un patient déjà pris en charge</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>07 salles de préparation ou encore vestiaires</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>01 salle d'interprétation avec 02 consoles (scanner et radio)</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>01 salle de garde</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>02 salles d'échographie</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>02 salles de radiographie</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>01 salle de contrôle et de numérisation</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>01 salle de panoramique dentaire</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>01 salle de scanner</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>01 salle de mammographie</span></li>
+                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>01 bureau du médecin</span></li>
+                </ul>
+            </div>
 
-                </ul>
-            </div>
-            <div class="col-lg-6 p-lg-0">
-                <ul class="pq-portfolio-list-check">
-                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>Respirateurs pédiatriques</span></li>
-                    <li><i aria-hidden="true" class="ion ion-checkmark"></i><span>Un chariot d'urgence</span></li>
-                </ul>
-            </div>
             <div class="pq-section-description">
-                <p> <strong>Le service pédiatrique</strong><br>
-                    Etroitement lié à la néonatalogie, le service pédiatrique, comme partout ailleurs est consacré au suivi global de l'enfant de sa naissance jusqu'à l'adolescence. Le service pédiatrique dispose de 02 salles de consultation et de 20 lits d'hospitalisation répartis dans 08 salles. Chaque lit est doté d'un système d'appel malade permettant à ce dernier de joindre en cas d'urgence, le personnel médical lorsqu'il a besoin d'assistance.
-                <p><strong>Le service de gynécologie obstétrique</strong>
+                <p>
+                    L'IRM ou l'imagerie par résonance magnétique est l'une des techniques les plus récentes en la matière. Elle permet de visualiser avec une grande précision les organes et tissus mous dans les différents plans de l'espace. Il est ainsi possible de déterminer la position exacte de lésions autrement invisible.</p>
 
-                    Le service assure à la fois le suivi des grossesses, les accouchements et les suites de couche, la prise en charge des pathologies de l'appareil génital et du sein ainsi que les cancers gynécologiques. Il est dédié à la santé et au bien-être des femmes.
-                </p>
             </div>
-
-
 
         </div>
     </div>
