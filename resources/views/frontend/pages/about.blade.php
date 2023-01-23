@@ -39,7 +39,7 @@
                         <p class="pq-section-description" style="text-align: justify">{{--@lang('about.welcome_to_chrg_text')--}} Le Centre Hospitalier Régional (CHR) de Garoua est une valeur ajoutée substantielle de l'offre sanitaire de ces dernières années dans la région du Nord, elle est marquée par une infrastructure moderne. La seule façade extérieure renseigne, à suffisance, sur le standing de ce joyau érigé aux normes et standards internationaux en vigueur.</p><p style="text-align: justify">
                             Hôpital de 2è catégorie, d'une capacité de 110 lits et places dont 86 lits d'hospitalisation conventionnelle et 24 places d'hospitalisation de jour, le CHR est bâti sur un site de 5Ha avec près de 14 000 m? de surface d'exploitation. Il dispose d'un ensemble de 14 bâtiments principaux abritant les services administratifs et logistiques, les unités cliniques, les services médicotechniques et les salles </p>
                     </div>
-                    <div class="row mt-3">
+                    {{--<div class="row mt-3">
                         <div class="col-lg-6 col-md-6">
                             <ul class="pq-list-check ">
                                 <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>@lang('about.patient-centered-care')</span></li>
@@ -54,13 +54,8 @@
                                 <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>@lang('about.communication-transparency')</span></li>
                             </ul>
                         </div>
-                        <div class="col-lg-6 col-md-6 mt-md-5">
-                           {{-- <div class="pq-contact-box1">
-                                <h4 class="pq-contact-title">1510</h4>
-                                <p class="pq-contact-desciption pq-text-primary mb-0">@lang('about.do-you-have-questions')</p>
-                            </div> --}}
-                        </div>
-                    </div>
+
+                    </div> --}}
 
                 </div>
             </div>
