@@ -3,8 +3,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="pq-section pq-style-1 text-center"> <span class="pq-section-sub-title">@lang('equipments-area.our-equipments')</span>
-                    <h5 class="pq-section-title pq-text-white">@lang('equipments-area.our-equipments-text')</h5> </div>
+                <div class="pq-section pq-style-1 text-center"> {{--<span
+                    class="pq-section-sub-title">@lang('equipments-area.our-equipments')</span>--}}
+                    <h5 class="pq-section-title pq-text-white">Nos Equipements et Nos Salles</h5> </div>
             </div>
         </div>
     </div>
