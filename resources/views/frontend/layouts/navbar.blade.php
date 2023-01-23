@@ -12,6 +12,13 @@
                 <li class="menu-item {{Route::currentRouteName() === 'about' ? 'current-menu-item' : ''}}">
                     <a href="{{ route('about', app()->getLocale() ) }}">@lang('navbar.nav-about-us')</a>
                 </li>
+
+                <li class="menu-item "> <a href="#">@lang('navbar.nav-services')</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
+                    <ul class="sub-menu">
+                        <li class="menu-item "> <a href="{{ route('service_gynecology', app()->getLocale() ) }}">@lang('navbar.nav-gynecology')</a>
+                        </li>
+                    </ul>
+                </li>
                 <li class="menu-item {{Route::currentRouteName() === 'services' ? 'current-menu-item' : ''}}">
                     <a href="{{ route('services', app()->getLocale() ) }}">@lang('navbar.nav-services')</a>
                 </li>

@@ -8,5 +8,6 @@ return [
     'nav-blog' => 'Blog',
     'nav-services' => 'Services',
     'nav-appointment' => 'Appointment',
+    'nav-gynecology' => 'Gynecology',
 
 ];
