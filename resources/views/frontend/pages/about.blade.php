@@ -36,7 +36,7 @@
                 <div class="col-xl-6 px-xl-4 mt-4 mt-xl-0">
                    <div class="pq-section pq-style-1 text-left"> {{--<span class="pq-section-sub-title">@lang('about.chrg_text')</span>--}}
                         <h5 style="text-transform: none;" class="pq-section-title">{{--@lang('about.welcome_to_chrg')--}} Présentation </h5>
-                        <p class="pq-section-description">{{--@lang('about.welcome_to_chrg_text')--}} Le Centre Hospitalier Régional (CHR) de Garoua est une valeur ajoutée substantielle de l'offre sanitaire de ces dernières années dans la région du Nord, elle est marquée par une infrastructure moderne. La seule façade extérieure renseigne, à suffisance, sur le standing de ce joyau érigé aux normes et standards internationaux en vigueur.
+                        <p class="pq-section-description" style="text-align: justify">{{--@lang('about.welcome_to_chrg_text')--}} Le Centre Hospitalier Régional (CHR) de Garoua est une valeur ajoutée substantielle de l'offre sanitaire de ces dernières années dans la région du Nord, elle est marquée par une infrastructure moderne. La seule façade extérieure renseigne, à suffisance, sur le standing de ce joyau érigé aux normes et standards internationaux en vigueur.</p><p style="text-align: justify">
                             Hôpital de 2è catégorie, d'une capacité de 110 lits et places dont 86 lits d'hospitalisation conventionnelle et 24 places d'hospitalisation de jour, le CHR est bâti sur un site de 5Ha avec près de 14 000 m? de surface d'exploitation. Il dispose d'un ensemble de 14 bâtiments principaux abritant les services administratifs et logistiques, les unités cliniques, les services médicotechniques et les salles </p>
                     </div>
                     <div class="row mt-3">
@@ -217,6 +217,12 @@
     <!--Section portfolio start-->
     @include('frontend.layouts.equipments-area')
     <!--Section portfolio End-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+
 
     <!--=================================
           our-blog start-->
