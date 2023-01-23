@@ -9,7 +9,8 @@
                 <div class="col-lg-12">
                     <nav aria-label="breadcrumb">
                         <div class="pq-breadcrumb-title">
-                            <h2>@lang('about.page-title') </h2> </div>
+{{--                            <h2>@lang('about.page-title') </h2>--}}
+                        </div>
                         <div class="pq-breadcrumb-container mt-2">
                            {{-- <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{ route('home', app()->getLocale() ) }}"><i class="fas fa-home mr-2"></i>@lang('navbar.nav-home')</a></li>
@@ -34,8 +35,8 @@
                 <div class="col-xl-6 pe-xl-5"> <img src="{{ asset('frontend/images/about/page_banner_2.jpg')}}" class="img-fluid wow fadeInLeft" alt="home"> </div>
                 <div class="col-xl-6 px-xl-4 mt-4 mt-xl-0">
                    <div class="pq-section pq-style-1 text-left"> {{--<span class="pq-section-sub-title">@lang('about.chrg_text')</span>--}}
-                        <h5 style="text-transform: none;" class="pq-section-title">@lang('about.welcome_to_chrg')  </h5>
-                        <p class="pq-section-description">@lang('about.welcome_to_chrg_text') </p>
+                        <h5 style="text-transform: none;" class="pq-section-title">{{--@lang('about.welcome_to_chrg')--}} Présentation </h5>
+                        <p class="pq-section-description">{{--@lang('about.welcome_to_chrg_text')--}}  </p>
                     </div>
                     <div class="row mt-3">
                         <div class="col-lg-6 col-md-6">
@@ -53,10 +54,10 @@
                             </ul>
                         </div>
                         <div class="col-lg-6 col-md-6 mt-md-5">
-                            <div class="pq-contact-box1">
+                           {{-- <div class="pq-contact-box1">
                                 <h4 class="pq-contact-title">1510</h4>
                                 <p class="pq-contact-desciption pq-text-primary mb-0">@lang('about.do-you-have-questions')</p>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
 
@@ -142,7 +143,7 @@
     </section>
     <!--Section about End-->
 
-    @include('frontend.layouts.services.our-main-services-area')
+{{--    @include('frontend.layouts.services.our-main-services-area')--}}
 
     <!--=================================
           counter start-->
@@ -193,10 +194,10 @@
                         <div class="pq-counter-contain border-0">
                             <div class="pq-counter-info">
                                 <div class="pq-counter-num-prefix">
-                                    <h5 class="timer" data-to="554" data-speed="5000">554</h5> <span class="pq-counter-prefix"></span> </div>
+                                    <h5 class="timer" data-to="554" data-speed="5000">110</h5> <span class="pq-counter-prefix"></span> </div>
                                 <div class="pq-counter-num-prefix pq-prefix-top">
-                                    <h5 class="timer" data-to="554" data-speed="5000">554</h5> <span class="pq-counter-prefix"></span> </div>
-                                <p class="pq-counter-description">@lang('about.happy-patients')</p>
+                                    <h5 class="timer" data-to="554" data-speed="5000">110</h5> <span class="pq-counter-prefix"></span> </div>
+                                <p class="pq-counter-description">{{--@lang('about.happy-patients')--}} Lits</p>
                             </div>
                         </div>
                     </div>
@@ -218,7 +219,7 @@
 
     <!--=================================
           our-blog start-->
-    @include('frontend.layouts.blog.blog-area')
+{{--    @include('frontend.layouts.blog.blog-area')--}}
     <!--=================================
           our-blog end-->
 

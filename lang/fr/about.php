@@ -57,7 +57,7 @@ return [
     'our-vision-text' => "Nous nous efforçons de créer un environnement de soins de santé où les patients sont au centre de tout ce que nous faisons.",
 
     'about-us-head' => "Un pôle d'excellence en médecine",
-    'about-us-text' => "Au Centre médical CHR GAROUA, nous sommes fiers d'offrir un large éventail de services médicaux pour répondre aux besoins de nos patients. ",
+    'about-us-text' => "Au Centre médical CHR GAROUA, nous sommes fiers d'offrir un large éventail de services médicaux pour répondre aux besoins de nos patients et des populations. ",
 
 
 

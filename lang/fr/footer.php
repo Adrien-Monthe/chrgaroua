@@ -13,6 +13,6 @@ return [
     'copyright' => 'Copyright 2022 CHR GAROUA Tous droits réservés',
     'enter-email'=>'Entrez votre courriel',
     'sign-up'=>'Abonnez Vous',
-    'subscribe-newsletter' => 'Dernières mises à jour Abonnez-vous à notre bulletin d\'information'
+    'subscribe-newsletter' => 'Abonnez-vous à notre bulletin d\'information'
 
 ];

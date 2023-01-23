@@ -12,5 +12,6 @@ return [
     'nav-digital-imaging' => "Medical Imaging",
     'nav-centralised-monitoring' => "Centralised Monitoring",
     'nav-reanimation' => "Reanimation",
+    'nav-oto-rhino-laryngology' => "L'oto-rhino-laryngology",
 
 ];

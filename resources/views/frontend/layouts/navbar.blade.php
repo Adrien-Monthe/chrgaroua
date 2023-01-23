@@ -23,6 +23,8 @@
                         </li>
                         <li class="menu-item "> <a href="{{ route('service_reanimation', app()->getLocale() ) }}">@lang('navbar.nav-reanimation')</a>
                         </li>
+                        <li class="menu-item "> <a href="{{ route('service_oto_rhino_laryngology', app()->getLocale() ) }}">@lang('navbar.nav-oto-rhino-laryngology')</a>
+                        </li>
                     </ul>
                 </li>
 
