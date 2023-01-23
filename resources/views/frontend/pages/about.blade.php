@@ -11,10 +11,10 @@
                         <div class="pq-breadcrumb-title">
                             <h2>@lang('about.page-title') </h2> </div>
                         <div class="pq-breadcrumb-container mt-2">
-                            <ol class="breadcrumb">
+                           {{-- <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{ route('home', app()->getLocale() ) }}"><i class="fas fa-home mr-2"></i>@lang('navbar.nav-home')</a></li>
                                 <li class="breadcrumb-item active">@lang('navbar.nav-about-us') </li>
-                            </ol>
+                            </ol> --}}
                         </div>
                     </nav>
                 </div>
@@ -33,7 +33,7 @@
             <div class="row">
                 <div class="col-xl-6 pe-xl-5"> <img src="{{ asset('frontend/images/about/page_banner_2.jpg')}}" class="img-fluid wow fadeInLeft" alt="home"> </div>
                 <div class="col-xl-6 px-xl-4 mt-4 mt-xl-0">
-                    <div class="pq-section pq-style-1 text-left"> <span class="pq-section-sub-title">@lang('about.chrg_text')</span>
+                   <div class="pq-section pq-style-1 text-left"> {{--<span class="pq-section-sub-title">@lang('about.chrg_text')</span>--}}
                         <h5 class="pq-section-title">@lang('about.welcome_to_chrg')  </h5>
                         <p class="pq-section-description">@lang('about.welcome_to_chrg_text') </p>
                     </div>
