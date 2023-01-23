@@ -1,9 +1,9 @@
 @extends('frontend.layouts.services.service-layout')
-@section('page-title', __('gynecology-service.page-title'))
+@section('page-title', __('digital-imaging.page-title'))
 @section('service-content')
 
     <div class="pq-menu-content">
-        <div class="pq-rhs-img text-center"> <img src="/frontend/images/blog/20.jpg" alt="" class="rounded img-fluid"> </div>
+        <div class="pq-rhs-img text-center"> <img src="/frontend/images/blog/19.jpg" alt="" class="rounded img-fluid"> </div>
         <div class="pq-section-title-box pq-section-title-style-2 pt-4">
             <h4 class="pq-section-title">Un pole D'excellence Gynéco Obstetrique</h4>
             <br>

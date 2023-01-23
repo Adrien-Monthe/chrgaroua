@@ -39,6 +39,11 @@ class FrontendController extends Controller
         return view('frontend.pages.services.gynecology-service');
     }
 
+    public function service_imaging()
+    {
+        return view('frontend.pages.services.imaging-service');
+    }
+
     public function blog()
     {
         return view('frontend.pages.blog.blog-articles');

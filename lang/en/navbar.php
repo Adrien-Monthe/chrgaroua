@@ -9,5 +9,6 @@ return [
     'nav-services' => 'Services',
     'nav-appointment' => 'Appointment',
     'nav-gynecology' => 'Gynecology',
+    'nav-digital-imaging' => "Medical Imaging",
 
 ];

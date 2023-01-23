@@ -3,7 +3,7 @@
 @section('content')
     <!--=================================
          Banner start-->
-    <div class="pq-breadcrumb" style="background-image:url('/frontend/images/breadcrumb.jpg');">
+    <div class="pq-breadcrumb" style="background-image:url('{{ asset("frontend/images/contact/page_banner_2.webp")}}');">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -36,14 +36,9 @@
                         <div class="pq-widget pq-widget-port p-0">
                             <div class="menu-service-menu-container">
                                 <ul id="menu-service-menu" class="menu">
-                                    <li class=" current-menu-item"> <a href="angioplasty-services.html" aria-current="page">Angioplasty Services</a> </li>
-                                    <li><a href="cardiology-services.html">Cardiology Services </a> </li>
-                                    <li><a href="dental-services.html">Dental Services</a> </li>
-                                    <li><a href="endocrinology-services.html">Endocrinology Services</a> </li>
-                                    <li> <a href="eye-care-services.html">Eye Care Services</a> </li>
-                                    <li> <a href="nurology-service.html">Neurology Services</a> </li>
-                                    <li> <a href="orthopaedics-services.html">Orthopaedics Services</a> </li>
-                                    <li> <a href="rmi-services.html">RMI Services</a> </li>
+                                    <li class="{{Route::currentRouteName() === 'service_gynecology' ? 'current-menu-item' : ''}}"><a href="{{ route('service_gynecology', app()->getLocale() ) }}" aria-current="{{Route::currentRouteName() === 'service_gynecology' ? 'page' : ''}}" >@lang('navbar.nav-gynecology') </a> </li>
+                                    <li class="{{Route::currentRouteName() === 'service_imaging' ? 'current-menu-item' : ''}}"><a href="{{ route('service_imaging', app()->getLocale() ) }}" aria-current="{{Route::currentRouteName() === 'service_imaging' ? 'page' : ''}}" >@lang('navbar.nav-digital-imaging') </a> </li>
+
                                 </ul>
                             </div>
                         </div>

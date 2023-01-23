@@ -21,6 +21,8 @@ Route::group(['prefix' => '{language}'], function () {
     Route::get('/blog', [App\Http\Controllers\FrontendController::class, 'blog'])->name('blog');
     Route::get('/services', [App\Http\Controllers\FrontendController::class, 'services'])->name('services');
     Route::get('/gynecology', [App\Http\Controllers\FrontendController::class, 'service_gynecology'])->name('service_gynecology');
+    Route::get('/imaging', [App\Http\Controllers\FrontendController::class, 'service_imaging'])->name('service_imaging');
+
     Route::get('/contact', [App\Http\Controllers\FrontendController::class, 'contact'])->name('contact');
     Route::get('/appointment', [App\Http\Controllers\FrontendController::class, 'appointment'])->name('appointment');
 

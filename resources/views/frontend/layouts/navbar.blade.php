@@ -17,6 +17,8 @@
                     <ul class="sub-menu">
                         <li class="menu-item "> <a href="{{ route('service_gynecology', app()->getLocale() ) }}">@lang('navbar.nav-gynecology')</a>
                         </li>
+                        <li class="menu-item "> <a href="{{ route('service_gynecology', app()->getLocale() ) }}">@lang('navbar.nav-digital-imaging')</a>
+                        </li>
                     </ul>
                 </li>
 
