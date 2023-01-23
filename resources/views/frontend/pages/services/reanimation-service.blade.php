@@ -13,8 +13,6 @@
                 <p>Il est doté d'un plateau de réanimation polyvalente pour les malades jugés dans un état critique ou nécessitant une intervention chirurgicale d'urgence, d'un service de traumatologie et d'orthopédie.</p>
                 <p>Il dispose ainsi d'appareil de monitorage, de cardioscopes, oxymètre, pulser, respirateurs artificiels, ventilateurs, pieds à sérum, armoire de rangement du local pharmacie, pompes à perfusion, lits malléables et télécommandés alimentés de prises ondulées...</p>
                 <p>On y retrouve une unité d'anesthésie et de réanimation, un bloc opératoire, des urgences et des consultations externes.</p>
-
-
             </div>
         </div>
 

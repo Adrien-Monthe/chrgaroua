@@ -52,7 +52,7 @@ class FrontendController extends Controller
 
     public function service_reanimation()
     {
-        return view('frontend.pages.services.centralised-monitoring-service');
+        return view('frontend.pages.services.reanimation-service');
     }
 
     public function blog()
