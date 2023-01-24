@@ -26,6 +26,12 @@ Route::group(['prefix' => '{language}'], function () {
     Route::get('/reanimation', [App\Http\Controllers\FrontendController::class, 'service_reanimation'])->name('service_reanimation');
     Route::get('/oto-rhino-laryngoloy', [App\Http\Controllers\FrontendController::class, 'service_oto_rhino_laryngology'])->name('service_oto_rhino_laryngology');
 
+    Route::get('/laboratory', [App\Http\Controllers\FrontendController::class, 'service_laboratory'])->name('service_laboratory');
+    Route::get('/surgery-room', [App\Http\Controllers\FrontendController::class, 'service_surgery_room'])->name('service_surgery_room');
+    Route::get('/emergency', [App\Http\Controllers\FrontendController::class, 'service_emergency'])->name('service_emergency');
+    Route::get('/reception', [App\Http\Controllers\FrontendController::class, 'service_home'])->name('service_home');
+    Route::get('/odontosmatology', [App\Http\Controllers\FrontendController::class, 'service_odontosmatology'])->name('service_odontosmatology');
+
     Route::get('/contact', [App\Http\Controllers\FrontendController::class, 'contact'])->name('contact');
     Route::get('/appointment', [App\Http\Controllers\FrontendController::class, 'appointment'])->name('appointment');
 

@@ -13,5 +13,12 @@ return [
     'nav-centralised-monitoring' => "Centralised Monitoring",
     'nav-reanimation' => "Reanimation",
     'nav-oto-rhino-laryngology' => "L'oto-rhino-laryngology",
+    'nav-laboratory' => "The Laboratory",
+    'nav-surgery-room' => "The Surgery Room",
+    'nav-emergency' => "Emergency",
+    'nav-hospital-home' => "Reception Hall",
+    'nav-odontosmatology' => "Odontosmalogy",
+    'nav-pharmacy' => "The Pharmacy",
+    'nav-ophtalmology' => "L'Ophtalmology",
 
 ];

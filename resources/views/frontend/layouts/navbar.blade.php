@@ -25,6 +25,20 @@
                         </li>
                         <li class="menu-item "> <a href="{{ route('service_oto_rhino_laryngology', app()->getLocale() ) }}">@lang('navbar.nav-oto-rhino-laryngology')</a>
                         </li>
+                        <li class="menu-item "> <a href="{{ route('service_laboratory', app()->getLocale() ) }}">@lang('navbar.nav-laboratory')</a>
+                        </li>
+                        <li class="menu-item "> <a href="{{ route('service_surgery_room', app()->getLocale() ) }}">@lang('navbar.nav-surgery-room')</a>
+                        </li>
+                        <li class="menu-item "> <a href="{{ route('service_emergency', app()->getLocale() ) }}">@lang('navbar.nav-emergency')</a>
+                        </li>
+                        <li class="menu-item "> <a href="{{ route('service_home', app()->getLocale() ) }}">@lang('navbar.nav-home')</a>
+                        </li>
+                        <li class="menu-item "> <a href="{{ route('service_odontosmatology', app()->getLocale() ) }}">@lang('navbar.nav-odontosmatology')</a>
+                        </li>
+                        <li class="menu-item "> <a href="#">@lang('navbar.nav-pharmacy')</a>
+                        </li>
+                        <li class="menu-item "> <a href="#">@lang('navbar.nav-ophtalmology')</a>
+                        </li>
                     </ul>
                 </li>
 

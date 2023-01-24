@@ -60,6 +60,31 @@ class FrontendController extends Controller
         return view('frontend.pages.services.oto-rhino-laryngology-service');
     }
 
+    public function service_laboratory()
+    {
+        return view('frontend.pages.services.laboratory-service');
+    }
+
+    public function service_surgery_room()
+    {
+        return view('frontend.pages.services.surgery-room-service');
+    }
+
+    public function service_emergency()
+    {
+        return view('frontend.pages.services.emergency-service');
+    }
+
+    public function service_home()
+    {
+        return view('frontend.pages.services.home-service');
+    }
+
+    public function service_odontosmatology()
+    {
+        return view('frontend.pages.services.odontosmatology-service');
+    }
+
     public function blog()
     {
         return view('frontend.pages.blog.blog-articles');
