@@ -71,7 +71,7 @@
                 <div class="col-lg-6 col-md-12 col-xl-5 pb-lg-0 pb-5">
                     <div class="pq-section pq-style-1 text-left mb-4"> <span class="pq-section-sub-title">@lang('about.about-us')</span>
                         <h5 class="pq-section-title">@lang('about.about-us-head')</h5>
-                        <p class="pq-section-description">@lang('about.about-us-text')</p>
+                        <p class="pq-section-description" style="text-align: justify">@lang('about.about-us-text')</p>
                     </div>
                     <div class="pq-about-info-box mt-1">
                         <div class="pq-about-info-box-icon">
@@ -79,7 +79,7 @@
                         </div>
                         <div class="pq-about-info-box-info">
                             <h5>@lang('about.our-mission')</h5>
-                            <p>@lang('about.our-mission-text')</p>
+                            <p style="text-align: justify">@lang('about.our-mission-text')</p>
                         </div>
                     </div>
                     <div class="pq-about-info-box mt-1">
@@ -88,7 +88,7 @@
                         </div>
                         <div class="pq-about-info-box-info">
                             <h5>@lang('about.our-vision')</h5>
-                            <p>@lang('about.our-vision-text')</p>
+                            <p style="text-align: justify">@lang('about.our-vision-text')</p>
                         </div>
                     </div>
 
@@ -141,6 +141,36 @@
 
 {{--    @include('frontend.layouts.services.our-main-services-area')--}}
 
+
+    <!--=================================
+          our-client start-->
+{{--    @include('frontend.layouts.testimonials-area')--}}
+    <!--=================================
+          our-client end-->
+
+    <!--Section portfolio start-->
+    @include('frontend.layouts.equipments-area')
+    <!--Section portfolio End-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br><br>
+    <br>
+    <br><br>
+
+
+    <!--=================================
+          our-blog start-->
+{{--    @include('frontend.layouts.blog.blog-area')--}}
+    <!--=================================
+          our-blog end-->
+
+@endsection
+
+@section('footer-content')
     <!--=================================
           counter start-->
     <section class=" pq-counter-60 pq-bg-primary-dark pq-py-2">
@@ -190,9 +220,9 @@
                         <div class="pq-counter-contain border-0">
                             <div class="pq-counter-info">
                                 <div class="pq-counter-num-prefix">
-                                    <h5 class="timer" data-to="554" data-speed="5000">110</h5> <span class="pq-counter-prefix"></span> </div>
+                                    <h5 class="timer" data-to="110" data-speed="5000">110</h5> <span class="pq-counter-prefix"></span> </div>
                                 <div class="pq-counter-num-prefix pq-prefix-top">
-                                    <h5 class="timer" data-to="554" data-speed="5000">110</h5> <span class="pq-counter-prefix"></span> </div>
+                                    <h5 class="timer" data-to="110" data-speed="5000">110</h5> <span class="pq-counter-prefix"></span> </div>
                                 <p class="pq-counter-description">{{--@lang('about.happy-patients')--}} Lits</p>
                             </div>
                         </div>
@@ -203,26 +233,4 @@
     </section>
     <!--=================================
           counter end-->
-    <!--=================================
-          our-client start-->
-{{--    @include('frontend.layouts.testimonials-area')--}}
-    <!--=================================
-          our-client end-->
-
-    <!--Section portfolio start-->
-    @include('frontend.layouts.equipments-area')
-    <!--Section portfolio End-->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br><br>
-
-
-    <!--=================================
-          our-blog start-->
-{{--    @include('frontend.layouts.blog.blog-area')--}}
-    <!--=================================
-          our-blog end-->
-
 @endsection

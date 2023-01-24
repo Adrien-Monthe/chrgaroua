@@ -57,7 +57,7 @@ class FrontendController extends Controller
 
     public function service_oto_rhino_laryngology()
     {
-        return view('frontend.pages.services.reanimation-service');
+        return view('frontend.pages.services.oto-rhino-laryngology-service');
     }
 
     public function blog()

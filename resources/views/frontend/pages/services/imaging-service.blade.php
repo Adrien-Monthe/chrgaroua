@@ -1,5 +1,6 @@
 @extends('frontend.layouts.services.service-layout')
 @section('page-title', __('digital-imaging.page-title'))
+@section('image-banner',  asset('frontend/images/blog/23.jpg'))
 @section('service-content')
 
     <div class="pq-menu-content">
@@ -8,7 +9,7 @@
             <h4 class="pq-section-title">L'Imagerie Médicale</h4>
             <br>
             <div class="pq-section-description">
-                <p> Ce pavillon comprend plusieurs pôles d'activités dont une IRM (imagerie par résonnance magnétique).
+                <p style="text-align: justify"> Ce pavillon comprend plusieurs pôles d'activités dont une IRM (imagerie par résonnance magnétique).
                     Le service d'imagerie est ouvert aux patients externes et aux patients hospitalisés.
                     Il est composé de plusieurs pôles d'activité (radiologie, échographie, mammographie, scanner et IRM). Tous les types d'examen sont réalisables au sein du service aussi bien en urgence que programmés.
                     Ici les équipements sont à la pointe de la technologie. </p>
@@ -35,7 +36,7 @@
             </div>
 
             <div class="pq-section-description">
-                <p>
+                <p style="text-align: justify">
                     L'IRM ou l'imagerie par résonance magnétique est l'une des techniques les plus récentes en la matière. Elle permet de visualiser avec une grande précision les organes et tissus mous dans les différents plans de l'espace. Il est ainsi possible de déterminer la position exacte de lésions autrement invisible.</p>
 
             </div>
