@@ -1,7 +1,26 @@
 @extends('frontend.layouts.app')
 @section('page-title', __('home.page-title'))
 @section('content')
+
+    <style>
+        #overlay {
+            position: fixed; /* Sit on top of the page content */
+            display: none; /* Hidden by default */
+            width: 100%; /* Full width (cover the whole page) */
+            height: 100%; /* Full height (cover the whole page) */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+            z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+            cursor: pointer; /* Add a pointer on hover */
+        }
+    </style>
+
     <!-- START Home 1 REVOLUTION SLIDER 6.5.19
+
+
 
   ================================= -->
     <p class="rs-p-wp-fix"></p>
@@ -27,17 +46,7 @@
                         established fact that a reader will be distracted by the readable content of a page when looking
                         at its layout.
                     </rs-layer>
-                    <!--
-                    -->
-                    <rs-layer id="slider-24-slide-84-layer-1" data-type="text" data-color="#2490eb" data-rsp_ch="on"
-                              data-xy="xo:41px,38px,38px,39px;y:m;yo:-197px,-154px,-121px,-78px;"
-                              data-text="w:normal;s:14,14,14,13;l:22,22,26,21;fw:600;" data-dim="w:auto,auto,auto,144px;"
-                              data-frame_0="x:50,39,29,17;" data-frame_1="st:600;sp:1000;sR:600;"
-                              data-frame_999="o:0;st:w;sR:7400;"
-                              style="z-index:9;font-family:'Quicksand';text-transform:uppercase;">Passion for caring
-                    </rs-layer>
-                    <!--
-                    -->
+
                     <rs-layer id="slider-24-slide-84-layer-2" data-type="text" data-color="#18100f" data-rsp_ch="on"
                               data-xy="xo:30px,30px,30px,31px;y:m;yo:-105px,-75px,-50px,-30px;"
                               data-text="w:normal;s:64,48,42,22;l:72,56,50,30;fw:600;"
@@ -48,12 +57,7 @@
                     </rs-layer>
                     <!--
                     -->
-                    <rs-layer id="slider-24-slide-84-layer-4" data-type="shape" data-rsp_ch="on"
-                              data-xy="xo:30px;yo:202px,155px,114px,85px;" data-text="w:normal;s:20,15,11,6;l:0,19,14,8;"
-                              data-dim="w:164px,158px,160px,155px;h:30px,30px,30px,25px;" data-border="bor:3px,3px,3px,3px;"
-                              data-frame_0="x:50,39,29,17;" data-frame_1="st:600;sp:1000;sR:600;"
-                              data-frame_999="o:0;st:w;sR:7400;" style="z-index:8;background-color:#d3e9fb;">
-                    </rs-layer>
+
                     <!--
                     --><a id="slider-24-slide-84-layer-6" class="rs-layer pq-button rev-btn"
                       href="about-us.html" target="_self" data-type="button"
@@ -207,8 +211,8 @@
                     <div class="pq-info-box pq-style-1">
                         <div class="pq-info-box-right-icon"> <i class=" flaticon-medical-doctor"></i> </div>
                         <div class="pq-info-box-icon"><i class=" flaticon-medical-doctor"></i></div>
-                        <h5 class="pq-info-title">Emergency Cases</h5>
-                        <p class="pq-infobox-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form </p>
+                        <h5 class="pq-info-title">@lang('home.emergency-cases')</h5>
+                        <p class="pq-infobox-description">@lang('home.emergency-cases-text') </p>
                         <div class="pq-info-call"> <i class="fas fa-phone-alt"></i>
                             <h4 class="cpq-call-number">1510</h4> </div>
                     </div>
@@ -217,10 +221,10 @@
                     <div class="pq-info-box pq-style-2">
                         <div class="pq-info-box-right-icon"> <i class=" flaticon-doctor"></i> </div>
                         <div class="pq-info-box-icon"><i class=" flaticon-doctor"></i></div>
-                        <h5 class="pq-info-title">Doctors Timetable</h5>
-                        <p class="pq-infobox-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form </p>
+                        <h5 class="pq-info-title">@lang('home.doctors-timetable')</h5>
+                        <p class="pq-infobox-description"> @lang('home.doctors-timetable-text') </p>
                         <a class="pq-button pq-button-flat" href="#">
-                            <div class="pq-button-block"> <span class="pq-button-text">Timetable</span> <i class="ion ion-plus-round"></i> </div>
+                            <div class="pq-button-block"> <span class="pq-button-text">Contact</span> <i class="ion ion-plus-round"></i> </div>
                         </a>
                     </div>
                 </div>
@@ -228,25 +232,25 @@
                     <div class="pq-info-box pq-style-3">
                         <div class="pq-info-box-right-icon"> <i class=" flaticon-care"></i> </div>
                         <div class="pq-info-box-icon"><i class=" flaticon-medical-history"></i></div>
-                        <h5 class="pq-info-title">Opening Hours</h5>
+                        <h5 class="pq-info-title">@lang('home.opening-hours')</h5>
                         <div class="pq-info-hours">
                             <div class="pq-info-hours-row">
                                 <ul class="pq-list-info">
                                     <li>
-                                        <div class="pq-info-hours-title"> Monday - Friday </div>
-                                        <div class="pq-info-hours-content"> 8:00 - 7:00 PM </div>
+                                        <div class="pq-info-hours-title"> Lundi - Vendredi </div>
+                                        <div class="pq-info-hours-content"> 8:00 - 19:00 </div>
                                     </li>
                                     <li>
-                                        <div class="pq-info-hours-title"> Saturday </div>
-                                        <div class="pq-info-hours-content"> 6:00 - 5:00 PM </div>
+                                        <div class="pq-info-hours-title"> Samedi </div>
+                                        <div class="pq-info-hours-content"> 06:00 - 17:00 </div>
                                     </li>
                                     <li>
-                                        <div class="pq-info-hours-title"> Sunday </div>
-                                        <div class="pq-info-hours-content"> 9:00 - 4:00 PM </div>
+                                        <div class="pq-info-hours-title"> Dimanche </div>
+                                        <div class="pq-info-hours-content"> 09:00 - 16:00 </div>
                                     </li>
                                     <li>
-                                        <div class="pq-info-hours-title"> Emergency </div>
-                                        <div class="pq-info-hours-content"> 24HRS 7Days </div>
+                                        <div class="pq-info-hours-title"> Urgences </div>
+                                        <div class="pq-info-hours-content"> 24HRS 7Jours </div>
                                     </li>
                                 </ul>
                             </div>
@@ -264,7 +268,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6"> <img src="{{ asset('frontend/images/About-us/1.jpg')}}" class="img-fluid pe-xl-5 wow fadeInLeft" alt="home"> </div>
                 <div class="col-lg-6 align-self-center mt-lg-0 mt-4">
-                    <div class="pq-section pq-style-1 text-left"> <span class="pq-section-sub-title">What About Us</span>
+                    <div class="pq-section pq-style-1 text-left"> <span class="pq-section-sub-title">Centre Hospitalier Regional de Garoua</span>
                         <h5 class="pq-section-title">The Heart and Science of Medicate test</h5>
                         <p class="pq-section-description">It is a long established fact that a reader will be distracted by at its layout. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>

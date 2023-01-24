@@ -127,10 +127,10 @@
         </div>
         --}}
 
-        <br>
+
         @yield('footer-content')
-        <br>
-        <br>
+
+
 
         <div class="pq-copyright-footer">
             <div class="container">

@@ -3,7 +3,7 @@
 @section('content')
     <!--=================================
          Banner start-->
-    <div class="pq-breadcrumb" style="background-image:url('{{ asset('frontend/images/about/page_banner_4.jpeg')}}');">
+    <div class="pq-breadcrumb" style="background-image:url('{{ asset('frontend/images/about/page_banner_4.jpeg')}}'); margin: 0px 10px 0px 10px">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -65,7 +65,19 @@
           about-us end-->
 
     <!--Section about start-->
-    <section class="about pq-bg-grey pq-dark-bg-side-right">
+    <style>
+        .pq-dark-bg-side-right::before {
+            content: "";
+            position: absolute;
+            left: 55%;
+            top: 0;
+            display: inline-block;
+            width: 100%;
+            height: 85%;
+            background: var(--primary-dark-color);
+        }
+    </style>
+    <section class="about pq-bg-grey pq-dark-bg-side-right" style="">
         <div class="container">
             <div class="row ">
                 <div class="col-lg-6 col-md-12 col-xl-5 pb-lg-0 pb-5">
@@ -159,7 +171,7 @@
     <br>
     <br><br>
     <br>
-    <br><br>
+
 
 
     <!--=================================
