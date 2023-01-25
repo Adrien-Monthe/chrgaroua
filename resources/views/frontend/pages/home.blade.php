@@ -300,6 +300,18 @@
     </section>
     <!--Section about-us End-->
 
+    <!--Section portfolio start-->
+    @include('frontend.layouts.equipments-area')
+    <!--Section portfolio End-->
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
     <section class="medical-skills py-0 pq-bg-img-4">
         <div class="container">
             <div class="row">
@@ -364,11 +376,12 @@
             </div>
         </div>
     </section>
+    <br>
+    <br>
+    <br>
 
 
-    <!--Section portfolio start-->
-    @include('frontend.layouts.equipments-area')
-    <!--Section portfolio End-->
+
 
     @include('frontend.layouts.services.our-main-services-area')
     <br>
@@ -475,3 +488,4 @@
     @include('frontend.layouts.blog.blog-area')
     <!--Section blog End-->
 @endsection
+
