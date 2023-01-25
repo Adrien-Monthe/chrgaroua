@@ -36,7 +36,7 @@
                          class="rev-slidebg tp-rs-img" data-no-retina>
                     <!--
                     -->
-                    <rs-layer id="slider-24-slide-84-layer-0" data-type="text" data-color="#666666" data-rsp_ch="on"
+                    {{--<rs-layer id="slider-24-slide-84-layer-0" data-type="text" data-color="#666666" data-rsp_ch="on"
                               data-xy="xo:30px;y:m;yo:2px,17px,29px,17px;"
                               data-text="w:normal;s:16,16,14,12;l:32,24,22,20;fw:600;"
                               data-dim="w:654px,565px,436px,268px;h:auto,auto,45px,27px;" data-vbility="t,t,t,f"
@@ -70,7 +70,7 @@
                       data-frame_hover="bgc:#14457b;bor:3px,3px,3px,3px;bos:solid;sp:100;bri:120%;"
                       style="z-index:12;background-color:#2490eb;font-family:'Quicksand';text-transform:uppercase;"><span
                             class="text">Read More</span><i class="ion ion-plus-round"></i>
-                    </a>
+                    </a> --}}
                     <!--
                     -->
                 </rs-slide>
@@ -81,7 +81,7 @@
                          class="rev-slidebg tp-rs-img" data-no-retina>
                     <!--
                     -->
-                    <rs-layer id="slider-24-slide-85-layer-0" data-type="text" data-color="#666666" data-rsp_ch="on"
+                   {{-- <rs-layer id="slider-24-slide-85-layer-0" data-type="text" data-color="#666666" data-rsp_ch="on"
                               data-xy="xo:30px;y:m;yo:2px,17px,29px,17px;"
                               data-text="w:normal;s:16,16,14,12;l:32,24,22,20;fw:600;"
                               data-dim="w:654px,565px,436px,268px;h:auto,auto,45px,27px;" data-vbility="t,t,t,f"
@@ -129,7 +129,7 @@
                       data-frame_hover="bgc:#14457b;bor:3px,3px,3px,3px;bos:solid;sp:100;bri:120%;"
                       style="z-index:12;background-color:#2490eb;font-family:'Quicksand';text-transform:uppercase;"><span
                             class="text">Read More</span><i class="ion ion-plus-round"></i>
-                    </a>
+                    </a> --}}
                     <!--
                     -->
                 </rs-slide>
@@ -140,7 +140,7 @@
                          class="rev-slidebg tp-rs-img" data-no-retina>
                     <!--
                     -->
-                    <rs-layer id="slider-24-slide-86-layer-0" data-type="text" data-color="#666666" data-rsp_ch="on"
+                   {{-- <rs-layer id="slider-24-slide-86-layer-0" data-type="text" data-color="#666666" data-rsp_ch="on"
                               data-xy="xo:30px;y:m;yo:2px,17px,29px,17px;"
                               data-text="w:normal;s:16,16,14,12;l:32,24,22,20;fw:600;"
                               data-dim="w:654px,565px,436px,268px;h:auto,auto,45px,27px;" data-vbility="t,t,t,f"
@@ -187,7 +187,7 @@
                       data-frame_hover="bgc:#14457b;bor:3px,3px,3px,3px;bos:solid;sp:100;bri:120%;"
                       style="z-index:12;background-color:#2490eb;font-family:'Quicksand';text-transform:uppercase;"><span
                             class="text">Read More</span><i class="ion ion-plus-round"></i>
-                    </a>
+                    </a> --}}
                     <!--
                     -->
                 </rs-slide>
@@ -266,396 +266,116 @@
     <section class="pq-bg-grey">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6"> <img src="{{ asset('frontend/images/About-us/1.jpg')}}" class="img-fluid pe-xl-5 wow fadeInLeft" alt="home"> </div>
+                <div class="col-lg-6">
+                    <div class="about-us-img">
+                        <img src="/frontend/images/blog/12.jpg" class="img-fluid pq-image1 wow fadeInRight " alt="home">
+                        <img src="/frontend/images/blog/14.jpg" class="img-fluid pq-image2 wow fadeInRight " alt="home">
+                    </div>
+
+                </div>
                 <div class="col-lg-6 align-self-center mt-lg-0 mt-4">
                     <div class="pq-section pq-style-1 text-left"> <span class="pq-section-sub-title">Centre Hospitalier Regional de Garoua</span>
-                        <h5 class="pq-section-title">The Heart and Science of Medicate test</h5>
-                        <p class="pq-section-description">It is a long established fact that a reader will be distracted by at its layout. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h5 class="pq-section-title">@lang('about.welcome_to_chrg')</h5>
+                        <p class="pq-section-description" style="text-align: justify">@lang('about.welcome_to_chrg_text'). Il est marquée par une infrastructure moderne. La seule façade extérieure renseigne, à suffisance, sur le standing de ce joyau érigé aux normes et standards internationaux en vigueur.</p>
+
+                        <p style="text-align: justify">Avec 400 appareils connectés à un système d'alimentation sans interruption
+                            (ASI), cette officine est dotée d'équipements et de technologies de standard international en matière d'imagerie médical, mais aussi de l'ensemble des spécialisations médicales et services.</p>
                     </div>
-                    <ul class="pq-list-check pq-text-dark mt-3 mb-4">
-                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Comprehensive Inpatient Services</span></li>
-                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Medical And Surgical Services</span></li>
-                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Outpatient Services</span></li>
-                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Medicine & instrument</span></li>
-                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Specialised Support Service</span></li>
-                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Instant Operation & Appointment</span></li>
-                    </ul>
-                    <a class="pq-button pq-button-flat mt-3" href="about-us.html">
-                        <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
+                    {{--<ul class="pq-list-check pq-text-dark mt-3 mb-4">
+                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Un scanner à 16 coupes</span></li>
+                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>La radiologie conventionnelle à numérisation indirecte</span></li>
+                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Un système de radio fluoroscopie à numérisation indirecte</span></li>
+                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>La mammographie</span></li>
+                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Des échographes</span></li>
+                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>L'angiographie pour salle d'opération</span></li>
+                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Une colonne de laparoscopie</span></li>
+                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Un équipement de néonatalogie (couveuses, photothérapie mobile...)</span></li>
+                    </ul> --}}
+                    <a class="pq-button pq-button-flat mt-3" href="{{ route('about', app()->getLocale() ) }}">
+                        <div class="pq-button-block"> <span class="pq-button-text">Plus D'info</span> <i class="ion ion-plus-round"></i> </div>
                     </a>
                 </div>
             </div>
         </div>
     </section>
     <!--Section about-us End-->
-    <!--Section service start-->
-    <section class="service">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="pq-section pq-style-1 text-center"> <span class="pq-section-sub-title">FACILITIES WE HAVE</span>
-                        <h5 class="pq-section-title">What Facilities We Provided</h5> </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-xl-4">
-                    <div class="pq-service-box pq-style-1">
-                        <div class="pq-service-block">
-                            <div class="pq-service-img"><img src="{{ asset('frontend/images/services/1.jpg')}}" class="img-fluid" alt="servicebox"></div>
-                            <div class="pq-service-box-info">
-                                <div class="pq-info-text"> <span class="pq-service-sub-title">Medical Surgery </span>
-                                    <a href="eye-care-services.html">
-                                        <h5 class="pq-service-title">Eye Care Services</h5> </a>
-                                </div>
-                                <div class="pq-service-icon"> <i class=" flaticon-laboratory"></i> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-xl-4 pt-md-0 pt-4">
-                    <div class="pq-service-box pq-style-1">
-                        <div class="pq-service-block">
-                            <div class="pq-service-img"><img src="{{ asset('frontend/images/services/2.jpg')}}" class="img-fluid" alt="servicebox"></div>
-                            <div class="pq-service-box-info">
-                                <div class="pq-info-text"> <span class="pq-service-sub-title">Medical Therapy </span>
-                                    <a href="cardiology-services.html">
-                                        <h5 class="pq-service-title">Cardiology Services</h5> </a>
-                                </div>
-                                <div class="pq-service-icon"><i class=" flaticon-doctor-1"></i> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-xl-4 pt-4 pt-xl-0">
-                    <div class="pq-service-box pq-style-1">
-                        <div class="pq-service-block">
-                            <div class="pq-service-img"><img src="{{ asset('frontend/images/services/3.jpg')}}" class="img-fluid" alt="servicebox"></div>
-                            <div class="pq-service-box-info">
-                                <div class="pq-info-text"> <span class="pq-service-sub-title">Medical Pediatrics</span>
-                                    <a href="dental-services.html">
-                                        <h5 class="pq-service-title">Dental Services</h5>
-                                    </a>
-                                </div>
-                                <div class="pq-service-icon"><i class=" flaticon-medical-prescription"></i> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Section service End-->
-    <!--Section about start-->
-    <section class="about pq-bg-grey pq-dark-bg-side-right">
-        <div class="container">
-            <div class="row ">
-                <div class="col-lg-6 col-md-12 col-xl-5 pb-lg-0 pb-5">
-                    <div class="pq-section pq-style-1 text-left mb-4"> <span class="pq-section-sub-title">About Us</span>
-                        <h5 class="pq-section-title">Joining Hands with Techno Easement</h5>
-                        <p class="pq-section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text&nbsp;</p>
-                    </div>
-                    <div class="pq-about-info-box mt-1">
-                        <div class="pq-about-info-box-icon">
-                            <i aria-hidden="true" class=" flaticon-stethoscope"></i>
-                        </div>
-                        <div class="pq-about-info-box-info">
-                            <h5>infection prevention</h5>
-                            <p>There are many variations of passages of LoremIpsum available majority.</p>
-                        </div>
-                    </div>
-                    <a class="pq-button pq-button-flat mt-4" href="about-us.html">
-                        <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-12 col-xl-5 pe-lg-3 pq-img-none">
-                    <img src="{{('frontend/images/1.jpg')}}" class="img-fluid" alt="servicebox">
-                </div>
-                <div class="col-xl-2 col-lg-12 col-md-12 py-xl-0 py-5 align-self-center pq-form-counter pq-bg-primary-dark">
-                    <div class="pq-counter pq-style-2">
-                        <div class="pq-counter-contain">
-                            <div class="pq-counter-info text-center">
-                                <div class="pq-counter-num-prefix">
-                                    <h5 class="timer" data-to="450" data-speed="5000">450</h5> <span class="pq-counter-prefix">+</span> </div>
-                                <div class="pq-counter-num-prefix pq-prefix-top">
-                                    <h5 class="timer" data-to="450" data-speed="5000">450</h5> <span class="pq-counter-prefix">+</span> </div>
-                                <p class="pq-counter-description">HAPPY PATIENTS</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pq-counter pq-style-2">
-                        <div class="pq-counter-contain">
-                            <div class="pq-counter-info text-center">
-                                <div class="pq-counter-num-prefix">
-                                    <h5 class="timer" data-to="100" data-speed="5000">100</h5> <span class="pq-counter-prefix">+</span> </div>
-                                <div class="pq-counter-num-prefix pq-prefix-top">
-                                    <h5 class="timer" data-to="100" data-speed="5000">100</h5> <span class="pq-counter-prefix">+</span> </div>
-                                <p class="pq-counter-description">SAVED HEARTS</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pq-counter pq-style-2">
-                        <div class="pq-counter-contain">
-                            <div class="pq-counter-info text-center">
-                                <div class="pq-counter-num-prefix">
-                                    <h5 class="timer" data-to="59" data-speed="5000">59</h5> <span class="pq-counter-prefix">+</span> </div>
-                                <div class="pq-counter-num-prefix pq-prefix-top">
-                                    <h5 class="timer" data-to="59" data-speed="5000">59</h5> <span class="pq-counter-prefix">+</span> </div>
-                                <p class="pq-counter-description">EXPERT DOCTORS</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Section about End-->
-    <!--Section service start-->
-    <section class="service">
+
+    <section class="medical-skills py-0 pq-bg-img-4">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="pq-section pq-style-1 text-center"> <span class="pq-section-sub-title">Our Services</span>
-                        <h5 class="pq-section-title">We provide  various Directions</h5> </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 pq-lg-border-bottom pq-lg-border-right">
-                    <div class="pq-fancy-box pq-style-1 text-center">
-                        <div class="pq-fancy-box-icon"><i class=" flaticon-doctor-1"></i></div>
-                        <div class="pq-fancy-box-info">
-                            <h5 class="pq-fancy-box-title">Angioplasty</h5>
-                            <p class="pq-fancybox-description">There are many variations of pas of Lorem Ipsum availab. </p>
-                            <a class="pq-button pq-button-link" href="angioplasty-services.html">
-                                <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                            </a>
+                <div class="col-xl-6 pq-padding-arround pq-bg-primary-dark pq-primary-dark-section-side-left">
+                    <div class="pq-section pq-style-1 text-left">
+
+                        <h5 class="pq-section-title pq-text-white">Nos unités Spécialisés</h5>
+                        <p class="pq-section-description pq-text-white">Le Centre hospitalier est composé d'un totale de 8 Unité Majeures qui sont:</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <ul class="pq-list-check">
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span class="pq-text-white">Les Urgences</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span class="pq-text-white">La chirurgie</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span class="pq-text-white">Ophthalmologie</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span class="pq-text-white">Pédiatrie</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <ul class="pq-list-check">
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span class="pq-text-white">Odontosmatologie</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span class="pq-text-white">La Gynécologie</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span class="pq-text-white">L'oto-Rhino-Laryngologie</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span class="pq-text-white">La médécine génerale</span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 pq-lg-border-bottom pq-lg-border-right">
-                    <div class="pq-fancy-box pq-style-1 text-center">
-                        <div class="pq-fancy-box-icon"><i class=" flaticon-care"></i></div>
-                        <div class="pq-fancy-box-info">
-                            <h5 class="pq-fancy-box-title">Cardiology</h5>
-                            <p class="pq-fancybox-description">There are many variations of pas of Lorem Ipsum availab. </p>
-                            <a class="pq-button pq-button-link" href="cardiology-services.html">
-                                <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                            </a>
+                    <a href="{{ route('about', app()->getLocale() ) }}l" class="pq-button pq-button-flat pq-mt-30">
+                        <div class="pq-button-block">
+                            <span class="pq-button-text">Plus D'info</span>
+                            <i class="ion ion-plus-round"></i>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 pq-lg-border-bottom pq-lg-border-right">
-                    <div class="pq-fancy-box pq-style-1 text-center">
-                        <div class="pq-fancy-box-icon"><i class=" flaticon-examination"></i></div>
-                        <div class="pq-fancy-box-info">
-                            <h5 class="pq-fancy-box-title">Dental</h5>
-                            <p class="pq-fancybox-description">There are many variations of pas of Lorem Ipsum availab. </p>
-                            <a class="pq-button pq-button-link" href="dental-services.html">
-                                <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 pq-lg-border-bottom pq-lg-border-right">
-                    <div class="pq-fancy-box pq-style-1 text-center">
-                        <div class="pq-fancy-box-icon"><i class=" flaticon-syringe"></i></div>
-                        <div class="pq-fancy-box-info">
-                            <h5 class="pq-fancy-box-title">Endocrinology</h5>
-                            <p class="pq-fancybox-description">There are many variations of pas of Lorem Ipsum availab. </p>
-                            <a class="pq-button pq-button-link" href="endocrinology-services.html">
-                                <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 pq-lg-border-right pq-lg-border-bottom">
-                    <div class="pq-fancy-box pq-style-1 text-center">
-                        <div class="pq-fancy-box-icon"><i class=" flaticon-medical"></i></div>
-                        <div class="pq-fancy-box-info">
-                            <h5 class="pq-fancy-box-title">Eye Care</h5>
-                            <p class="pq-fancybox-description">There are many variations of pas of Lorem Ipsum availab. </p>
-                            <a class="pq-button pq-button-link" href="eye-care-services.html">
-                                <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 pq-lg-border-bottom pq-lg-border-right">
-                    <div class="pq-fancy-box pq-style-1 text-center">
-                        <div class="pq-fancy-box-icon"><i class=" flaticon-heartbeat"></i></div>
-                        <div class="pq-fancy-box-info">
-                            <h5 class="pq-fancy-box-title">Neurology</h5>
-                            <p class="pq-fancybox-description">There are many variations of pas of Lorem Ipsum availab. </p>
-                            <a class="pq-button pq-button-link" href="nurology-service.html">
-                                <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 pq-lg-border-right pq-lg-border-bottom">
-                    <div class="pq-fancy-box pq-style-1 text-center">
-                        <div class="pq-fancy-box-icon"><i class=" flaticon-x-ray"></i></div>
-                        <div class="pq-fancy-box-info">
-                            <h5 class="pq-fancy-box-title">Orthopaedics</h5>
-                            <p class="pq-fancybox-description">There are many variations of pas of Lorem Ipsum availab. </p>
-                            <a class="pq-button pq-button-link" href="orthopaedics-services.html">
-                                <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 pq-lg-border-right pq-lg-border-bottom">
-                    <div class="pq-fancy-box pq-style-1 text-center">
-                        <div class="pq-fancy-box-icon"><i class=" flaticon-drugs"></i></div>
-                        <div class="pq-fancy-box-info">
-                            <h5 class="pq-fancy-box-title">RMI</h5>
-                            <p class="pq-fancybox-description">There are many variations of pas of Lorem Ipsum availab. </p>
-                            <a class="pq-button pq-button-link" href="rmi-services.html">
-                                <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
-                            </a>
-                        </div>
-                    </div>
+                <div class="col-xl-6 p-xl-0">
+                    <img src="/frontend/images/blog/37.jpg" class="d-xl-none" alt="">
                 </div>
             </div>
         </div>
     </section>
-    <!--Section service End-->
+
 
     <!--Section portfolio start-->
     @include('frontend.layouts.equipments-area')
     <!--Section portfolio End-->
 
-    <!--Section team start-->
-    <section class="team pq-bg-grey pq-team-pb">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="pq-section pq-style-1 text-center"> <span class="pq-section-sub-title">Our Team</span>
-                        <h5 class="pq-section-title">Meet Our Heart Specialists</h5> </div>
-                </div>
-                <div class="col-lg-12 pb-dot-mt-0">
-                    <div class="owl-carousel owl-theme " data-dots="true" data-nav="false" data-desk_num="3" data-lap_num="3" data-tab_num="2" data-mob_num="2" data-mob_sm="1" data-autoplay="false" data-loop="false" data-margin="30">
-                        <div class="item">
-                            <div class="pq-team-box pq-style-1">
-                                <div class="pq-team-img"> <img src="{{ asset('frontend/images/team/1.jpg')}}" class="img-fluid" alt="team-image">
-                                    <div class="pq-team-social">
-                                        <ul>
-                                            <li>
-                                                <a class="facebook" href="#" target="_blank"> <span class="sr-only">Facebook</span> <i class="fab fa-facebook"></i> </a>
-                                            </li>
-                                            <li>
-                                                <a class="twitter" href="#" target="_blank"> <span class="sr-only">Twitter</span> <i class="fab fa-twitter"></i> </a>
-                                            </li>
-                                            <li>
-                                                <a class="google-plus" href="#" target="_blank"> <span class="sr-only">Google-plus</span> <i class="fab fa-google-plus"></i> </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="pq-team-info">
-                                    <h5 class="pq-member-name">
-                                        <a href="doctor-1.html">
-                                            Naidan Smith                      </a>
-                                    </h5> <span class="pq-team-designation">Outpatient Surgery</span> </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-team-box pq-style-1">
-                                <div class="pq-team-img"> <img src="{{ asset('frontend/images/team/2.jpg')}}" class="img-fluid" alt="team-image">
-                                    <div class="pq-team-social">
-                                        <ul>
-                                            <li>
-                                                <a class="facebook" href="#" target="_blank"> <span class="sr-only">Facebook</span> <i class="fab fa-facebook"></i> </a>
-                                            </li>
-                                            <li>
-                                                <a class="twitter" href="#" target="_blank"> <span class="sr-only">Twitter</span> <i class="fab fa-twitter"></i> </a>
-                                            </li>
-                                            <li>
-                                                <a class="google-plus" href="#" target="_blank"> <span class="sr-only">Google-plus</span> <i class="fab fa-google-plus"></i> </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="pq-team-info">
-                                    <h5 class="pq-member-name">
-                                        <a href="doctor-1.html">
-                                            Danial Frankie                     </a>
-                                    </h5> <span class="pq-team-designation">Outpatient Surgery</span> </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-team-box pq-style-1">
-                                <div class="pq-team-img"> <img src="{{ asset('frontend/images/team/3.jpg')}}" class="img-fluid" alt="team-image">
-                                    <div class="pq-team-social">
-                                        <ul>
-                                            <li>
-                                                <a class="facebook" href="#" target="_blank"> <span class="sr-only">Facebook</span> <i class="fab fa-facebook"></i> </a>
-                                            </li>
-                                            <li>
-                                                <a class="twitter" href="#" target="_blank"> <span class="sr-only">Twitter</span> <i class="fab fa-twitter"></i> </a>
-                                            </li>
-                                            <li>
-                                                <a class="google-plus" href="#" target="_blank"> <span class="sr-only">Google-plus</span> <i class="fab fa-google-plus"></i> </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="pq-team-info">
-                                    <h5 class="pq-member-name">
-                                        <a href="doctor-1.html">
-                                            Alex Jhon                    </a>
-                                    </h5> <span class="pq-team-designation">Outpatient Surgery</span> </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-team-box pq-style-1">
-                                <div class="pq-team-img"> <img src="{{ asset('frontend/images/team/4.jpg')}}" class="img-fluid" alt="team-image">
-                                    <div class="pq-team-social">
-                                        <ul>
-                                            <li>
-                                                <a class="facebook" href="#" target="_blank"> <span class="sr-only">Facebook</span> <i class="fab fa-facebook"></i> </a>
-                                            </li>
-                                            <li>
-                                                <a class="twitter" href="#" target="_blank"> <span class="sr-only">Twitter</span> <i class="fab fa-twitter"></i> </a>
-                                            </li>
-                                            <li>
-                                                <a class="google-plus" href="#" target="_blank"> <span class="sr-only">Google-plus</span> <i class="fab fa-google-plus"></i> </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="pq-team-info">
-                                    <h5 class="pq-member-name">
-                                        <a href="doctor-1.html">
-                                            Rihana Roy               </a>
-                                    </h5> <span class="pq-team-designation">Outpatient Surgery</span> </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-team-box pq-style-1">
-                                <div class="pq-team-img"> <img src="{{ asset('frontend/images/team/5.jpg')}}" class="ig-fluid" alt="team-image">
-                                    <div class="pq-team-social">
-                                        <ul>
-                                            <li>
-                                                <a class="facebook" href="#" target="_blank"> <span class="sr-only">Facebook</span> <i class="fab fa-facebook"></i> </a>
-                                            </li>
-                                            <li>
-                                                <a class="twitter" href="#" target="_blank"> <span class="sr-only">Twitter</span> <i class="fab fa-twitter"></i> </a>
-                                            </li>
-                                            <li>
-                                                <a class="google-plus" href="#" target="_blank"> <span class="sr-only">Google-plus</span> <i class="fab fa-google-plus"></i> </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="pq-team-info">
-                                    <h5 class="pq-member-name">
-                                        <a href="doctor-1.html">
-                                            Jason Roy                      </a>
-                                    </h5> <span class="pq-team-designation">Outpatient Surgery</span> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Section team End-->
+    @include('frontend.layouts.services.our-main-services-area')
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <!--Section form start-->
     <section class="pq-form">
         <div class="container">
@@ -694,10 +414,16 @@
     </section>
 
     <!--Section form End-->
-    <!--Section testimonial Start-->
-
-    @include('frontend.layouts.home-testimonials-area')
-    <!--Section testimonial End-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <!--Section client Start-->
     <div class="pq-client">
         <div class="container">

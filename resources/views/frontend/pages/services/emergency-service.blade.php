@@ -1,5 +1,5 @@
 @extends('frontend.layouts.services.service-layout')
-@section('image-banner',  asset('frontend/images/blog/30.jpg'))
+@section('image-banner',  asset('frontend/images/blog/36.jpeg'))
 @section('page-title', __('emergency-service.page-img-title'))
 @section('service-content')
 
