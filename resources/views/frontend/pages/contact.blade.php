@@ -4,19 +4,19 @@
 
     <!--=================================
          Banner start-->
-    <div class="pq-breadcrumb" style="background-image:url('{{ asset("frontend/images/contact/page_banner_2.webp")}}');">
+    <div class="pq-breadcrumb" style="background-image:url('{{ asset("frontend/images/blog/16.jpg")}}');">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav aria-label="breadcrumb">
                         <div class="pq-breadcrumb-title">
-                            <h2>@lang('contact.page-title') </h2> </div>
-                        <div class="pq-breadcrumb-container mt-2">
+                            <h2>@lang('navbar.nav-contact') </h2> </div>
+                       {{-- <div class="pq-breadcrumb-container mt-2">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{ route('home', app()->getLocale() ) }}"><i class="fas fa-home mr-2"></i>@lang('navbar.nav-home') </a></li>
                                 <li class="breadcrumb-item active">@lang('navbar.nav-contact')</li>
                             </ol>
-                        </div>
+                        </div> --}}
                     </nav>
                 </div>
                 <div class="col-lg-4">
