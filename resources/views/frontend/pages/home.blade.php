@@ -1,4 +1,17 @@
 @extends('frontend.layouts.app')
+
+@section('additional_meta')
+
+    <meta property="og:image" content="{{ asset('frontend/images/logo_chr.jpeg')}}" />
+    <meta property="og:description" content=" L'Hôpital Régional de Garoua est une valeur ajoutée substantielle de l'offre sanitaire de ces dernières années dans la région du Nord. " />
+    <meta property="og:keywords" content=" Hopital, Garoua, Cameroun, Centre Hospitalier, Soins, Medecine, Cardiologie, Gastrologie, Neurologie, , Foot " />
+
+    <meta property="og:url"content="{{ route('home', app()->getLocale() ) }}" />
+
+    <meta property="og:title" content="Luvnation Football Agency" />
+
+@endsection
+
 @section('page-title', __('home.page-title'))
 @section('content')
 
