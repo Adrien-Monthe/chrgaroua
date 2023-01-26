@@ -274,7 +274,7 @@
 
                 </div>
                 <div class="col-lg-6 align-self-center mt-lg-0 mt-4">
-                    <div class="pq-section pq-style-1 text-left"> <span class="pq-section-sub-title">Centre Hospitalier Regional de Garoua</span>
+                    <div class="pq-section pq-style-1 text-left">
                         <h5 class="pq-section-title">@lang('about.welcome_to_chrg')</h5>
                         <p class="pq-section-description" style="text-align: justify">@lang('about.welcome_to_chrg_text'). Il est marquée par une infrastructure moderne. La seule façade extérieure renseigne, à suffisance, sur le standing de ce joyau érigé aux normes et standards internationaux en vigueur.</p>
 
@@ -300,17 +300,12 @@
     </section>
     <!--Section about-us End-->
 
-    <!--Section portfolio start-->
-    @include('frontend.layouts.equipments-area')
-    <!--Section portfolio End-->
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
 
     <section class="medical-skills py-0 pq-bg-img-4">
         <div class="container">
@@ -393,29 +388,36 @@
     <section class="pq-form">
         <div class="container">
             <div class="row align-items-center pq-bg-primary pq-reveser flex-md-column-reverse flex-lg-row">
-                <div class="col-lg-4 text-center"> <img src="{{ asset('frontend/images/2.png')}}" class="img-fluid pq-form-img-overflow" alt="..."> </div>
+                <div class="col-lg-4 text-center"> <img src="{{ asset('frontend/images/home/image_4.png')}}" class="img-fluid pq-form-img-overflow" alt="..."> </div>
                 <div class="col-lg-8 mt-5 mt-lg-0 pq-form-pad pq-blue-section-side-right">
-                    <div class="pq-section pq-style-1 text-left"> <span class="pq-section-sub-title">Appointment</span>
-                        <h5 class="pq-section-title pq-text-white">Apply for free treatments</h5>
+                    <div class="pq-section pq-style-1 text-left">
+                        <h5 class="pq-section-title pq-text-white">Prenez Un rendez Vous</h5>
                     </div>
                     <form action="#" class="pq-applyform mt-5" novalidate>
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" name="your-name" id="first-name" class="pq-bg-transparent name-field" placeholder="Your Name" required>
+                                <input type="text" name="your-name" id="first-name" class="pq-bg-transparent name-field" placeholder="Votre Noms" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="email" name="your-email" id="e-mail" class="pq-bg-transparent e-mail-field" placeholder="Your Email" required>
+                                <input type="email" name="your-email" id="e-mail" class="pq-bg-transparent e-mail-field" placeholder="Votre Couriel" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="your-doctor-name" id="doctor-name" class="pq-bg-transparent doctor-name-field" placeholder="Your Doctor Name" required>
+                                <input type="text" name="your-doctor-name" id="doctor-name" class="pq-bg-transparent doctor-name-field" placeholder="Noms du Docteur" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="your-disease" id="disease-name" class="pq-bg-transparent disease-name-field" placeholder="Your Disease Name" required>
+                                <select class="pq-bg-transparent doctor-name-field" id="doctor-name" name="your-doctor-name">
+                                    <option value="Dr. Monthe">Dr. Monthe</option>
+                                    <option value="Dr. Monthe">Dr. Adrien</option>
+                                    <option value="Dr. Monthe">Dr. Meudje</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="your-disease" id="disease-name" class="pq-bg-transparent disease-name-field" placeholder="Vos Symptoms" required>
                             </div>
                             <div class="col-md-12">
                                 <a class="pq-button pq-button-bg-white form-btn">
                                     <div class="pq-button-block">
-                                        <span class="pq-button-text-dark me-0">send message</span>
+                                        <span class="pq-button-text-dark me-0">Envoyez votre message</span>
                                     </div>
                                 </a>
                             </div>
@@ -484,8 +486,11 @@
         </div>
     </div>
     <!--Section client End-->
-    <!--Section blog Start-->
-    @include('frontend.layouts.blog.blog-area')
-    <!--Section blog End-->
+    <br>
+    <br>
+    <br>
+    <br>
+
+
 @endsection
 

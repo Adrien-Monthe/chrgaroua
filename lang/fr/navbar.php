@@ -7,7 +7,7 @@ return [
     'nav-about-us' => 'A propos',
     'nav-blog' => 'Actualité',
     'nav-services' => 'Services',
-    'nav-appointment' => 'Rendez-vous',
+    'nav-appointment' => 'Consultation',
     'nav-gynecology' => 'Gynecologie',
     'nav-digital-imaging' => "L'imagerie Médicale",
     'nav-centralised-monitoring' => "Monitoring Centralisé",
