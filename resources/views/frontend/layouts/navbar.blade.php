@@ -91,7 +91,7 @@
             </form>
         </div>
     </div> --}}
-    <a href="#" class="pq-button">
+    <a href="{{ route('appointment', app()->getLocale() ) }}" class="pq-button">
         <div class="pq-button-block">
             <span class="pq-button-text">@lang('navbar.nav-appointment')</span>
             <i class="ion ion-plus-round"></i>

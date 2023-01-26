@@ -447,37 +447,37 @@
                     <div class="owl-carousel owl-theme" data-dots="false" data-nav="false" data-desk_num="5" data-lap_num="3" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
                         <div class="item">
                             <div class="pq-clientbox pq-style-1">
-                                <a href="#"> <img src="{{ asset('frontend/images/client/1.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/client/1.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
+                                <a href="#"> <img src="{{ asset('frontend/images/partners/1.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/partners/1.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pq-clientbox pq-style-1">
-                                <a href="#"> <img src="{{ asset('frontend/images/client/2.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/client/2.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
+                                <a href="#"> <img src="{{ asset('frontend/images/partners/3.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/partners/3.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pq-clientbox pq-style-1">
-                                <a href="#"> <img src="{{ asset('frontend/images/client/3.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/client/3.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
+                                <a href="#"> <img src="{{ asset('frontend/images/partners/4.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/partners/4.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pq-clientbox pq-style-1">
-                                <a href="#"> <img src="{{ asset('frontend/images/client/4.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/client/4.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
+                                <a href="#"> <img src="{{ asset('frontend/images/partners/2.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/partners/2.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pq-clientbox pq-style-1">
-                                <a href="#"> <img src="{{ asset('frontend/images/client/5.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/client/5.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
+                                <a href="#"> <img src="{{ asset('frontend/images/partners/5.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/partners/5.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pq-clientbox pq-style-1">
-                                <a href="#"> <img src="{{ asset('frontend/images/client/1.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/client/1.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
+                                <a href="#"> <img src="{{ asset('frontend/images/partners/6.svg')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/partners/6.svg')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pq-clientbox pq-style-1">
-                                <a href="#"> <img src="{{ asset('frontend/images/client/2.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/client/2.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
+                                <a href="#"> <img src="{{ asset('frontend/images/partners/7.png')}}" alt="pq-client-img" class="pq-client-img img-fluid"> <img src="{{ asset('frontend/images/partners/7.png')}}" alt="pq-client-img" class="pq-client-hover-img img-fluid"> </a>
                             </div>
                         </div>
                     </div>
