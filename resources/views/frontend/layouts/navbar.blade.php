@@ -60,7 +60,7 @@
                     </ul>
                 </li>
 
-                li class="menu-item {{Route::currentRouteName() === 'contact' ? 'current-menu-item' : ''}}">
+                <li class="menu-item {{Route::currentRouteName() === 'contact' ? 'current-menu-item' : ''}}">
                     <a href="{{ route('contact', app()->getLocale() ) }}">@lang('navbar.nav-contact')</a>
                 </li>
 
