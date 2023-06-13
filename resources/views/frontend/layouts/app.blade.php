@@ -13,13 +13,13 @@
 </head>
 
 <body>
-<!--loading start-->
+{{--<!--loading start-->
 <div id="pq-loading">
     <div id="pq-loading-center">
         <img src="{{ asset('frontend/images/logo_chr.jpeg')}}" class="img-fluid" alt="loading">
     </div>
 </div>
-<!--loading End-->
+<!--loading End--> --}}
 
 <!--=============== header start ==================-->
 @include('frontend.layouts.header')
