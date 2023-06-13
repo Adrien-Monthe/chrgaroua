@@ -33,21 +33,80 @@
             </div>
         </div>
 
-        {{--
+
         <div class="pq-footer-top">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-3 col-md-6">
+                    <div class="col-xl-4 col-md-6">
                         <div class="pq-footer-block">
                             <img src="{{ asset('frontend/images/logo_chr_transp.png')}}"
-                                 class="pq-footer-logo img-fluid" alt="medicate-footer-logo">CHR GAROUA
+                                 class="pq-footer-logo img-fluid" alt="medicate-footer-logo">
+                            <p>Notre mission au CHR GAROUA est de fournir des soins de santé de haute qualité, centrés sur le patient et accessibles à tous.</p>
+
+                            <div class="pq-footer-social">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://wa.me/237698588320"><i class="fab fa-whatsapp"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="tel:671037935"><i class="fab fa-phone"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4  col-md-6">
+                        <div class="pq-footer-block">
+                            <h4 class="footer-title">@lang('footer.quick-links')</h4>
+                            <div class="menu-useful-links-container">
+                                <ul id="menu-useful-links" class="menu">
+                                    <li><a href="{{ route('home', app()->getLocale() ) }}">@lang('footer.nav-home')</a>
+                                    </li>
+                                    <li><a
+                                        href="{{ route('about', app()->getLocale() ) }}">@lang('footer.nav-about-us')</a>
+                                    </li>
+                                    <li><a
+                                        href="{{ route('contact', app()->getLocale() ) }}">@lang('footer.nav-contact')</a>
+                                    </li>
+                                    <li><a
+                                        href="{{ route('services', app()->getLocale() ) }}">@lang('footer.nav-services')</a>
+                                    </li>
+                                    <li><a
+                                        href="{{ route('appointment', app()->getLocale() ) }}">@lang('footer.nav-appointment')</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4  col-md-6">
+                        <div class="pq-footer-block">
+                            <h4 class="footer-title">@lang('navbar.nav-contact') </h4>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <ul class="pq-contact">
+                                        <li><a href="tel:1510"><i class="fas fa-phone"></i>
+                                            <span> +237 698588320 / 671037935</span>
+                                        </a></li>
+                                        <li><a href=""><i class="fas fa-envelope"></i><span>info@chr-garoua.cm</span></a>
+                                        </li>
+                                        <li><i class="fas fa-map-marker"></i> <span>Situé à Bocklé à coté des logements</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{--
+
+                     <div class="col-xl-3 col-md-6">
+                        <div class="pq-footer-block">
+                            <img src="{{ asset('frontend/images/logo_chr_transp.png')}}"
+                                 class="pq-footer-logo img-fluid" alt="medicate-footer-logo">
                             <p>It helps designers plan out where the content will sit, the content to be written and
                                 approved.</p>
 
                             <div class="pq-footer-social">
                                 <ul>
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                                     <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
                                 </ul>
@@ -112,20 +171,22 @@
                                 <div class="col-sm-12">
                                     <ul class="pq-contact">
                                         <li><a href="tel:1510"><i class="fas fa-phone"></i>
-                                            <span> 1510</span>
+                                            <span> +237 698588320 / 671037935</span>
                                         </a></li>
-                                        <li><a href=""><i class="fas fa-envelope"></i><span>contact@chr-garoua.cm</span></a>
+                                        <li><a href=""><i class="fas fa-envelope"></i><span>info@chr-garoua.cm</span></a>
                                         </li>
-                                        <li><i class="fas fa-map-marker"></i> <span>Garoua, Cameroun</span></li>
+                                        <li><i class="fas fa-map-marker"></i> <span>Situé à Bocklé à coté des logements</span></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    --}}
                 </div>
             </div>
         </div>
-        --}}
+
 
 
         @yield('footer-content')
