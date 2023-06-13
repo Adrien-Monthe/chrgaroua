@@ -66,9 +66,9 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 [ Moz Selection ]
 ==================================================*/
 :root {
-  --primary-color: #2490eb;
-  --primary-dark-color: #14457b;
-  --dark-color: #18100f;
+  --primary-color: #3cb043;
+  --primary-dark-color: #1C352D;
+  --dark-color: #1A2421;
   --secondary-color: #666666;
   --grey-color: #f4f6f9;
   --white-color: #ffffff;
