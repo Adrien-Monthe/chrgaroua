@@ -42,15 +42,30 @@
                     </ul>
                 </li>
 
-                <li class="menu-item {{Route::currentRouteName() === 'blog' ? 'current-menu-item' : ''}}">
-                    <a href="{{ route('blog', app()->getLocale() ) }}">@lang('navbar.nav-blog')</a>
+                <li class="menu-item "> <a href="#">@lang('navbar.nav-activities')</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
+                    <ul class="sub-menu">
+
+                        <li class="menu-item {{Route::currentRouteName() === 'campaigns' ? 'current-menu-item' : ''}}">
+                            <a href="{{ route('blog', app()->getLocale() ) }}">@lang('navbar.nav-campaigns')</a>
+                        </li>
+
+                        <li class="menu-item {{Route::currentRouteName() === 'training' ? 'current-menu-item' : ''}}">
+                            <a href="{{ route('blog', app()->getLocale() ) }}">@lang('navbar.nav-trainings')</a>
+                        </li>
+
+                        <li class="menu-item {{Route::currentRouteName() === 'blog' ? 'current-menu-item' : ''}}">
+                            <a href="{{ route('blog', app()->getLocale() ) }}">@lang('navbar.nav-blog')</a>
+                        </li>
+
+                    </ul>
                 </li>
-                <li class="menu-item {{Route::currentRouteName() === 'contact' ? 'current-menu-item' : ''}}">
+
+                li class="menu-item {{Route::currentRouteName() === 'contact' ? 'current-menu-item' : ''}}">
                     <a href="{{ route('contact', app()->getLocale() ) }}">@lang('navbar.nav-contact')</a>
                 </li>
 
 
-                @if(app()->getLocale() === "en")
+                {{--@if(app()->getLocale() === "en")
                     <li class="menu-item "> <a href="#">ENGlISH</a><i
                             class="fa fa-chevron-down pq-submenu-icon"></i>
                         <ul class="sub-menu">
@@ -72,7 +87,7 @@
                             <li class="menu-item "> <a href="{{ route(Route::currentRouteName(), ['en',Route::current()->Parameter('product_id')]) }}">ENGLISH</a> </li>
                         </ul>
                     </li>
-                @endif
+                @endif --}}
 
             </ul>
         </div>

@@ -20,5 +20,8 @@ return [
     'nav-odontosmatology' => "L'odontosmalogie",
     'nav-pharmacy' => "La Pharmacie",
     'nav-ophtalmology' => "L'Ophtalmologie",
+    'nav-activities' => "Activités",
+    'nav-trainings' => "Formations",
+    'nav-campaigns' => "Campagnes",
 
 ];
