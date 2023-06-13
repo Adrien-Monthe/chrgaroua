@@ -217,7 +217,7 @@
           END REVOLUTION SLIDER
           ================================= -->
 
-    <section class="servicebox p-lg-0 pb-0 pq-bg-grey ">
+    <section class="servicebox p-lg-0 pb-0  ">
         <div class="container pq-mt-60">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-6 col-xl-4">
@@ -227,7 +227,7 @@
                         <h5 class="pq-info-title">@lang('home.emergency-cases')</h5>
                         <p class="pq-infobox-description">@lang('home.emergency-cases-text') </p>
                         <div class="pq-info-call"> <i class="fas fa-phone-alt"></i>
-                            <h4 class="cpq-call-number">1510</h4> </div>
+                            <h4 class="cpq-call-number">671 037 935</h4> </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-xl-4 pt-md-0 pt-4">
@@ -275,8 +275,10 @@
     </section>
     <!--Section End-->
 
+
+
     <!--Section about-us start-->
-    <section class="pq-bg-grey">
+    <section class="">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -313,14 +315,11 @@
     </section>
     <!--Section about-us End-->
 
-    <br>
-    <br>
-    <br>
-    <br>
 
 
 
-    <section class="medical-skills py-0 pq-bg-img-4">
+
+    {{--<section class="medical-skills py-0 pq-bg-img-4">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 pq-padding-arround pq-bg-primary-dark pq-primary-dark-section-side-left">
@@ -386,18 +385,16 @@
     </section>
     <br>
     <br>
-    <br>
+    <br> --}}
 
 
 
 
     @include('frontend.layouts.services.our-main-services-area')
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <!--Section form start-->
+    {{--
     <section class="pq-form">
         <div class="container">
             <div class="row align-items-center pq-bg-primary pq-reveser flex-md-column-reverse flex-lg-row">
@@ -439,23 +436,23 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!--Section form End-->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <!--Section client Start-->
     <div class="pq-client">
+
         <div class="container">
+
             <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-lg-12">
+                        <div class="pq-section pq-style-1 text-center">
+                            {{--                        <span class="pq-section-sub-title">@lang('about.our-services') </span>--}}
+                            <h5 class="pq-section-title">@lang('about.our-partners')</h5> </div>
+                    </div>
+                </div>
                 <div class="col-lg-12">
                     <div class="owl-carousel owl-theme" data-dots="false" data-nav="false" data-desk_num="5" data-lap_num="3" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
                         <div class="item">

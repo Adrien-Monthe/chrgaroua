@@ -3262,7 +3262,7 @@ info box
 
 .pq-info-box {
   color: var(--white-color);
-  padding: 45px 30px;
+  padding: 30px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -3349,8 +3349,8 @@ info box
 }
 
 .pq-info-box.pq-style-3 .pq-list-info li {
-  padding-bottom: 5px;
-  margin-bottom: 5px;
+  padding-bottom: 0;
+  margin-bottom: 1px;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #ffffff29;
