@@ -23,5 +23,6 @@ return [
     'nav-activities' => "Activités",
     'nav-trainings' => "Formations",
     'nav-campaigns' => "Campagnes",
+    'nav-medical-project' => "Le projet médical",
 
 ];

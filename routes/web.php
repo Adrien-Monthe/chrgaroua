@@ -33,6 +33,7 @@ Route::group(['prefix' => '{language}'], function () {
     Route::get('/odontosmatology', [App\Http\Controllers\FrontendController::class, 'service_odontosmatology'])->name('service_odontosmatology');
 
     Route::get('/contact', [App\Http\Controllers\FrontendController::class, 'contact'])->name('contact');
+    Route::get('/medical-project', [App\Http\Controllers\FrontendController::class, 'contact'])->name('medical-project');
     Route::get('/appointment', [App\Http\Controllers\FrontendController::class, 'appointment'])->name('appointment');
 
     Route::middleware([

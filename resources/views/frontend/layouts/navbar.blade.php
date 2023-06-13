@@ -64,6 +64,9 @@
                     <a href="{{ route('contact', app()->getLocale() ) }}">@lang('navbar.nav-contact')</a>
                 </li>
 
+                <li class="menu-item {{Route::currentRouteName() === 'medical-project' ? 'current-menu-item' : ''}}">
+                    <a href="{{ route('medical-project', app()->getLocale() ) }}">@lang('navbar.nav-medical-project')</a>
+                </li>
 
                 {{--@if(app()->getLocale() === "en")
                     <li class="menu-item "> <a href="#">ENGlISH</a><i
