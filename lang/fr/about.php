@@ -2,7 +2,7 @@
 
 return [
 
-    'page-title' => 'A Propos',
+    'page-title' => 'A propos du CHR Garoua',
     'our-partners' => 'Nos Partenaires',
     'chrg_text' => 'Centre hospitalier regional de Garoua',
     'welcome_to_chrg' => "Bienvenue dans l'un des plus grands hôpitaux du Nord Cameroun. ",
