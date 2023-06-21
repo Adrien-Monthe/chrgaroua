@@ -3,7 +3,7 @@
 @section('content')
     <!--=================================
          Banner start-->
-    <div class="pq-breadcrumb" style="background-image:url('{{ asset('frontend/images/about/page_banner_4.jpeg')}}'); margin: 0px 10px 0px 10px">
+    <div class="pq-breadcrumb" style="background-image:url('{{ asset('frontend/images/about/page_banner_5.png')}}'); margin: 0px 10px 0px 10px">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
