@@ -42,7 +42,7 @@
         <rs-module id="rev_slider_24_1" data-version="6.5.19">
             <rs-slides >
 
-                <rs-slide style="position: absolute;" data-key="rs-86" data-title="Slide"
+                <rs-slide style="position: absolute;" data-key="rs-83" data-title="Slide"
                           data-thumb="{{ asset('frontend/rev/assets/3-2-50x100.jpg')}}" data-in="o:0;" data-out="a:false;">
                     <img src="{{asset('frontend/images/home/image_3.jpg')}}" alt="" title="3-2"
                          class="rev-slidebg tp-rs-img" data-no-retina>
