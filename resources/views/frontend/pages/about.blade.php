@@ -106,10 +106,10 @@
 
                 </div>
                 <div class="col-lg-6 col-md-12 col-xl-5 pe-lg-3 pq-img-none">
-                    <img src="{{ asset('frontend/images/about/image_1.jpeg')}}" class="img-fluid" alt="servicebox">
+                    <img src="{{ asset('frontend/images/home/IMG_8410.JPG')}}" class="img-fluid" alt="servicebox" style="max-height: 250px; object-fit: cover">
                     <br>
                     <br>
-                    <img src="{{ asset('frontend/images/about/image_2.jpeg')}}" class="img-fluid" alt="servicebox">
+                    <img src="{{ asset('frontend/images/home/IMG_8415.JPG')}}" class="img-fluid" alt="servicebox" style="max-height: 250px; object-fit: cover">
                 </div>
                {{-- <div class="col-xl-2 col-lg-12 col-md-12 py-xl-0 py-5 align-self-center pq-form-counter pq-bg-primary-dark">
                     <div class="pq-counter pq-style-2">

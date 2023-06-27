@@ -4,7 +4,7 @@
 @section('service-content')
 
     <div class="pq-menu-content">
-        <div class="pq-rhs-img text-center"> <img src="/frontend/images/blog/27.jpg" alt="" class="rounded img-fluid"> </div>
+        <div class="pq-rhs-img text-center"> <img src="/frontend/images/blog/4.jpg" alt="" class="rounded img-fluid"> </div>
         <div class="pq-section-title-box pq-section-title-style-2 pt-4">
             <h4 class="pq-section-title">Un pole D'excellence Gynéco Obstetrique</h4>
             <br>
